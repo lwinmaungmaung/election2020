@@ -199,6 +199,9 @@ $tine['shan']['other']=0;
 $tine['tanintharyi']['other']=0;
 $tine['yangon']['other']=0;
 
+$totalvotes['left'] = 79+99+100+80;
+$totalvotes['right'] = 29+8+4+29;
+
 ?>
 
 
@@ -270,11 +273,11 @@ $tine['yangon']['other']=0;
             <div class="party-information">
                 <div class="left-info">
                     <h3 class="h4">NLD</h3>
-                    <h4 class="h5">0 <br>votes</h4>
+                    <h4 class="h5"><?php echo $totalvotes['left'] ?> <br>votes</h4>
                 </div>
                 <div class="right-info">
                     <h3 class="h4">USDP</h3>
-                    <h4 class="h5">0 <br>votes</h4>
+                    <h4 class="h5"><?php echo $totalvotes['right'] ?> <br>votes</h4>
                 </div>
             </div>
         </div>

@@ -199,10 +199,10 @@ $tine['shan']['other']=0;
 $tine['tanintharyi']['other']=0;
 $tine['yangon']['other']=0;
 
-$left_unconfirmed = 430+166+167;
-$totalvotes['left'] = $left_unconfirmed+79+99+100+80+6+3+1154+448+1395+1397+448+447+166+604+515+257+836;
-$right_unconfirmed = 173+8+9;
-$totalvotes['right'] = $right_unconfirmed+29+8+4+29+237+251+602+0+896+419+5+4+61+158+122+120+382;
+$left_unconfirmed = 430+166+167+113+40+42+41;
+$totalvotes['left'] = $left_unconfirmed+79+99+100+80+6+3+1154+448+1395+1397+448+447+166+604+515+257+836+435+219;
+$right_unconfirmed = 173+8+9+44+36+36+37;
+$totalvotes['right'] = $right_unconfirmed+29+8+4+29+237+251+602+0+896+419+5+4+61+158+122+120+382+98+25;
 
 ?>
 

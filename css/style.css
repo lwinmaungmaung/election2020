@@ -1,0 +1,82 @@
+#left-party, #right-party{
+    transition: all ease-in-out 500ms;
+}
+.winning-icons{
+    position: relative;
+    top: -100px;
+}
+.left-side{
+    max-width: 150px;
+    width: 30%;
+    background: url("/images/NLD.png");
+    background-size: 77%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 0%;
+}
+.electorial-pictorial{
+    border-top: 2px solid #ccc;
+    margin: 50px auto 0px auto;
+    width: 80%;
+
+
+}
+.right-side{
+    max-width: 150px;
+    width: 30%;
+    float: right;
+    background: url("/images/USDP.png");
+    background-size: 77%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 0%;
+}
+/*.winning-seats{*/
+/*    position: relative;*/
+/*    top: 0px;*/
+/*    width: 100%;*/
+/*    max-width: 1180px;*/
+/*    font-weight: bold;*/
+/*    font-size: 24pt;*/
+/*}*/
+.left-text{
+    float: left;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: red;
+}
+.right-text{
+    float: right;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: green;
+}
+.party-information{
+    margin-top: 70px;
+}
+
+.party-information .left-info{
+    float: left;
+    margin-left: -7rem;
+    color: red;
+}
+.party-information .right-info{
+    float: right;
+    margin-right: -7rem;
+    text-align: right;
+    color: green;
+}
+/*@media only screen and (max-width: 600px){*/
+/*    .party-information{*/
+/*        margin-top: 40px;*/
+/*    }*/
+/*    .party-information .left-info{*/
+/*        margin-left: -50px;*/
+/*    }*/
+/*    .party-information .right-info{*/
+/*        margin-right: -50px;*/
+/*    }*/
+/*}*/

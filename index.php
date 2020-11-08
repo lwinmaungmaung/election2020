@@ -30,7 +30,7 @@ $pyithu['rakhine']['nld']=0;
 $pyithu['sagaing']['nld']=0;
 $pyithu['shan']['nld']=1;
 $pyithu['tanintharyi']['nld']=0;
-$pyithu['yangon']['nld']=8;
+$pyithu['yangon']['nld']=9;
 
 $pyithu['ayeyarwaddy']['usdp']=0;
 $pyithu['chin']['usdp']=0;
@@ -204,7 +204,7 @@ $totalvotes['left'] = $left_unconfirmed+79+99+100+80+6+3+1154+448+1395+1397+448+
 $right_unconfirmed = 173+8+9+44+36+36+37;
 $totalvotes['right'] = $right_unconfirmed+29+8+4+29+237+251+602+0+896+419+5+4+61+158+122+120+382+98+25+98+25+203+75+83+100+100+198+2308+2328+2314;
 
-$total_left=12;
+$total_left=13;
 $total_right=0;
 $total_seats=161+315;
 

@@ -28,7 +28,7 @@ $pyithu['naypyitaw']['nld']=0;
 $pyithu['pegu']['nld']=0;
 $pyithu['rakhine']['nld']=0;
 $pyithu['sagaing']['nld']=0;
-$pyithu['shan']['nld']=0;
+$pyithu['shan']['nld']=1;
 $pyithu['tanintharyi']['nld']=0;
 $pyithu['yangon']['nld']=8;
 

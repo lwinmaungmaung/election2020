@@ -284,6 +284,13 @@ $totalvotes['right'] = 29+8+4+29+237+251+602+0+896+419;
     </div>
     <div class="row">
         <div class="col-md-12">
+            <hr>
+            <h3 class="h3">Total Votes = <b>33,839,163</b> Votes</h3>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
             <br>
             <h2 class="text-center h2">Pyithu Hluttaw</h2>
             <hr width="50%" class="text-center">

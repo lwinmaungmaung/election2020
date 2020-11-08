@@ -236,7 +236,7 @@ $totalvotes['right'] = 29+8+4+29;
         </div>
         <div class="col-md-12">
             <br><br>
-            <div class="text-center electorial-pictorial">322 votes to win</div>
+            <div class="text-center electorial-pictorial">322 seats to win</div>
             <div class="winning-icons">
                 <div class="left-side">
                     <svg viewBox="-1 -1 38 38">

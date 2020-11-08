@@ -255,7 +255,7 @@ $totalvotes['right'] = $right_unconfirmed+29+8+4+29+237+251+602+0+896+419+5+4+61
                     </svg>
 
                 </div>
-                <div class="left-text">0</div>
+                <div class="left-text">1</div>
                 <div class="right-side">
                     <svg viewBox="-1 -1 38 38">
                         <path

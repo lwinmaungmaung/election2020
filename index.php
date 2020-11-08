@@ -543,3 +543,8 @@ $totalvotes['right'] = 29+8+4+29+237+251;
 
 </script>
 </html>
+<?php
+    unset($pyithu);
+    unset($amyotha);
+    unset($tine);
+?>

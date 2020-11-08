@@ -204,6 +204,9 @@ $totalvotes['left'] = $left_unconfirmed+79+99+100+80+6+3+1154+448+1395+1397+448+
 $right_unconfirmed = 173+8+9+44+36+36+37;
 $totalvotes['right'] = $right_unconfirmed+29+8+4+29+237+251+602+0+896+419+5+4+61+158+122+120+382+98+25+98+25+203;
 
+$total_left=1;
+$total_right=0;
+
 ?>
 
 
@@ -255,7 +258,7 @@ $totalvotes['right'] = $right_unconfirmed+29+8+4+29+237+251+602+0+896+419+5+4+61
                     </svg>
 
                 </div>
-                <div class="left-text">1</div>
+                <div class="left-text"><?php echo $total_left; ?></div>
                 <div class="right-side">
                     <svg viewBox="-1 -1 38 38">
                         <path
@@ -270,7 +273,7 @@ $totalvotes['right'] = $right_unconfirmed+29+8+4+29+237+251+602+0+896+419+5+4+61
                         />
                     </svg>
                 </div>
-                <div class="right-text">0</div>
+                <div class="right-text"><?php echo $total_right; ?></div>
             </div>
             <div class="party-information">
                 <div class="left-info">

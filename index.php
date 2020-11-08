@@ -199,8 +199,8 @@ $tine['shan']['other']=0;
 $tine['tanintharyi']['other']=0;
 $tine['yangon']['other']=0;
 
-$totalvotes['left'] = 79+99+100+80;
-$totalvotes['right'] = 29+8+4+29;
+$totalvotes['left'] = 79+99+100+80+237+6+3;
+$totalvotes['right'] = 29+8+4+29+3+237+251;
 
 ?>
 

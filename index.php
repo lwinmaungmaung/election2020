@@ -448,21 +448,21 @@ $tine['yangon']['other']=0;
     </div>
 </div>
 </div>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-12">
-            <svg width="100%" height="100%" viewBox="-30 -30 150 150" style="max-width:100%; transform: rotate(180deg)">
-                <?php
-                for ($i = 1; $i <= 300; $i++) {
-                    ?>
-                    <circle id="constituencies<?php echo $i ?>" cx="3.339" cy="3.339" r="1.339" fill="none" stroke-width="0.1" stroke="#aaaaaa"/>
-                    <?php
-                }
-                ?>
-            </svg>
-        </div>
-    </div>
-</div>
+<!--<div class="container-fluid">-->
+<!--    <div class="row">-->
+<!--        <div class="col-md-12">-->
+<!--            <svg width="100%" height="100%" viewBox="-30 -30 150 150" style="max-width:100%; transform: rotate(180deg)">-->
+<!--                --><?php
+//                for ($i = 1; $i <= 300; $i++) {
+//                    ?>
+<!--                    <circle id="constituencies--><?php //echo $i ?><!--" cx="3.339" cy="3.339" r="1.339" fill="none" stroke-width="0.1" stroke="#aaaaaa"/>-->
+<!--                    --><?php
+//                }
+//                ?>
+<!--            </svg>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

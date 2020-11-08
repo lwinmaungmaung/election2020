@@ -275,11 +275,11 @@ $totalvotes['right'] = $right_unconfirmed+29+8+4+29+237+251+602+0+896+419;
             <div class="party-information">
                 <div class="left-info">
                     <h3 class="h4">NLD</h3>
-                    <h4 class="h5"><?php echo $totalvotes['left'] ?> <br>votes</h4>
+                    <h4 class="h5"><?php echo number_format($totalvotes['left']); ?> <br>votes</h4>
                 </div>
                 <div class="right-info">
                     <h3 class="h4">USDP</h3>
-                    <h4 class="h5"><?php echo $totalvotes['right'] ?> <br>votes</h4>
+                    <h4 class="h5"><?php echo number_format($totalvotes['right']); ?> <br>votes</h4>
                 </div>
             </div>
         </div>

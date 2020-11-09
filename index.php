@@ -135,21 +135,21 @@ $amyotha['yangon']['other']=0;
 
 //tine
 
-$tine['ayeyarwaddy']['total']=90;
-$tine['chin']['total']=39;
-$tine['kachin']['total']=66;
-$tine['kayar']['total']=33;
-$tine['kayin']['total']=33;
-$tine['magway']['total']=87;
-$tine['mandalay']['total']=96;
-$tine['mon']['total']=42;
-//$tine['naypyitaw']['total']=36;
-$tine['pegu']['total']=96;
-$tine['rakhine']['total']=63;
-$tine['sagaing']['total']=123;
-$tine['shan']['total']=177;
-$tine['tanintharyi']['total']=42;
-$tine['yangon']['total']=147;
+$tine['ayeyarwaddy']['total']=52;
+$tine['chin']['total']=18;
+$tine['kachin']['total']=36;
+$tine['kayar']['total']=14;
+$tine['kayin']['total']=14;
+$tine['magway']['total']=50;
+$tine['mandalay']['total']=48;
+$tine['mon']['total']=20;
+//$tine['naypyitaw']['total']=16;
+$tine['pegu']['total']=56;
+$tine['rakhine']['total']=34;
+$tine['sagaing']['total']=74;
+$tine['shan']['total']=110;
+$tine['tanintharyi']['total']=20;
+$tine['yangon']['total']=90;
 
 $tine['ayeyarwaddy']['nld']=0;
 $tine['chin']['nld']=0;
@@ -157,7 +157,7 @@ $tine['kachin']['nld']=0;
 $tine['kayar']['nld']=0;
 $tine['kayin']['nld']=0;
 $tine['magway']['nld']=0;
-$tine['mandalay']['nld']=1;
+$tine['mandalay']['nld']=49;
 $tine['mon']['nld']=0;
 //$tine['naypyitaw']['nld']=0;
 $tine['pegu']['nld']=0;

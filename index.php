@@ -17,20 +17,20 @@ $pyithu['tanintharyi']['total']=10;
 $pyithu['yangon']['total']=45;
 
 $pyithu['ayeyarwaddy']['nld']=5;
-$pyithu['chin']['nld']=1;//UEC unconfirmed
-$pyithu['kachin']['nld']=5;//unconfirmed
+$pyithu['chin']['nld']=0;//UEC unconfirmed
+$pyithu['kachin']['nld']=0;//unconfirmed
 $pyithu['kayar']['nld']=0;
 $pyithu['kayin']['nld']=0;
 $pyithu['magway']['nld']=4;
-$pyithu['mandalay']['nld']=8;
+$pyithu['mandalay']['nld']=8; //UEC Confirmed
 $pyithu['mon']['nld']=0;
 $pyithu['naypyitaw']['nld']=1;
-$pyithu['pegu']['nld']=5;
+$pyithu['pegu']['nld']=8;
 $pyithu['rakhine']['nld']=1;
 $pyithu['sagaing']['nld']=9;
 $pyithu['shan']['nld']=1;
 $pyithu['tanintharyi']['nld']=0;
-$pyithu['yangon']['nld']=23;
+$pyithu['yangon']['nld']=23;  //UEC confirmed
 
 $pyithu['ayeyarwaddy']['usdp']=0;
 $pyithu['chin']['usdp']=0;
@@ -44,7 +44,7 @@ $pyithu['naypyitaw']['usdp']=1;
 $pyithu['pegu']['usdp']=0;
 $pyithu['rakhine']['usdp']=2;
 $pyithu['sagaing']['usdp']=0;
-$pyithu['shan']['usdp']=0;
+$pyithu['shan']['usdp']=1;
 $pyithu['tanintharyi']['usdp']=0;
 $pyithu['yangon']['usdp']=0;
 

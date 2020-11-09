@@ -338,9 +338,9 @@ $total_state_seats=660;
             </div>
             <br>
             <div class="row">
-                <div class="col"><button type="button" class="btn nld-won"> &nbsp; </button> NLD Won </li></div>
-                <div class="col"><button type="button" class="btn usdp-won"> &nbsp; </button> USDP Won</li></div>
-                <div class="col"><button type="button" class="btn other-won"> &nbsp; </button> Other Parties (one or more)</li></div>
+                <div class="col"><button type="button" class="btn nld-won"> &nbsp; </button> NLD (<?php echo $tine_left; ?>)</li></div>
+                <div class="col"><button type="button" class="btn usdp-won"> &nbsp; </button> USDP (<?php echo $tine_right; ?>)</li></div>
+                <div class="col"><button type="button" class="btn other-won"> &nbsp; </button> Other Parties (<?php echo $tine_other; ?>)</li></div>
             </div>
             <hr>
         </div>

@@ -334,16 +334,16 @@ $total_state_seats=660;
         <div class="col-md-12">
             <h1 class="h1 text-center">Myanmar Election 2020</h1>
             <h2 class="h2 text-center"> <span>
-                    <?php if($paused==true):?>
-                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-pause-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5zm5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5z"/>
-                    </svg>
-                    <?php else: ?>
-                        <svg width="0.5em" height="0.5em" viewBox="0 0 16 16" class="bi bi-circle-fill" fill="red" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="8" cy="8" r="8"/>
-                        </svg>
-                    <?php endif; ?>
-                    </span>
+<!--                    --><?php //if($paused==true):?>
+<!--                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-pause-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">-->
+<!--                      <path d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5zm5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5z"/>-->
+<!--                    </svg>-->
+<!--                    --><?php //else: ?>
+<!--                        <svg width="0.5em" height="0.5em" viewBox="0 0 16 16" class="bi bi-circle-fill" fill="red" xmlns="http://www.w3.org/2000/svg">-->
+<!--                            <circle cx="8" cy="8" r="8"/>-->
+<!--                        </svg>-->
+<!--                    --><?php //endif; ?>
+<!--                    </span>-->
                 Live Results
             </h2>
             <hr width="50%">

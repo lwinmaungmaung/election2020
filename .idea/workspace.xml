@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f03a0d26-b2af-44c2-b48d-c39cdae621a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +48,7 @@
       <workItem from="1604699863992" duration="2058000" />
       <workItem from="1604774725635" duration="11321000" />
       <workItem from="1604832616386" duration="9098000" />
-      <workItem from="1604854168533" duration="27066000" />
+      <workItem from="1604854168533" duration="27128000" />
     </task>
     <servers />
   </component>
@@ -57,10 +56,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="326" y="96" width="670" height="705" key="search.everywhere.popup" timestamp="1604698391149">
+    <state x="326" y="96" width="670" height="705" key="search.everywhere.popup" timestamp="1604963292610">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="-1018" y="92" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/-1366.0.1366.768@-1366.0.1366.768" timestamp="1604609243621" />
-    <state x="326" y="96" width="670" height="705" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1604698391149" />
+    <state x="326" y="96" width="670" height="705" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1604963292610" />
   </component>
 </project>

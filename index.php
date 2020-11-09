@@ -383,6 +383,9 @@ $total_seats=161+315;
                     <tr>
                         <?php
                             if($item['nld']==0&&$item['usdp']==0&&$item['other']==0) $bgcolor="tie-leading";
+                            else if($item['total']==$item['nld']) $bgcolor = "nld-won text-white";
+                            else if($item['total']==$item['usdp']) $bgcolor = "usdp-won text-white";
+                            else if($item['total']==$item['other']) $bgcolor = "usdp-won text-white";
                             else if($item['nld']>$item['usdp'] && $item['nld']>$item['other']){
                                 $bgcolor = "nld-leading";
                             }
@@ -442,6 +445,9 @@ $total_seats=161+315;
                         <tr>
                             <?php
                             if($item['nld']==0&&$item['usdp']==0&&$item['other']==0) $bgcolor="tie-leading";
+                            else if($item['total']==$item['nld']) $bgcolor = "nld-won text-white";
+                            else if($item['total']==$item['usdp']) $bgcolor = "usdp-won text-white";
+                            else if($item['total']==$item['other']) $bgcolor = "usdp-won text-white";
                             else if($item['nld']>$item['usdp'] && $item['nld']>$item['other']){
                                 $bgcolor = "nld-leading";
                             }

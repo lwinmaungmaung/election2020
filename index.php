@@ -55,7 +55,7 @@ $pyithu['kayar']['other']=0;
 $pyithu['kayin']['other']=0;
 $pyithu['magway']['other']=0;
 $pyithu['mandalay']['other']=0;
-$pyithu['mon']['other']=0;
+$pyithu['mon']['other']=1;
 $pyithu['naypyitaw']['other']=0;
 $pyithu['pegu']['other']=0;
 $pyithu['rakhine']['other']=9;  //ANP =6, AFP=3
@@ -123,7 +123,7 @@ $amyotha['kayar']['other']=0;
 $amyotha['kayin']['other']=0;
 $amyotha['magway']['other']=0;
 $amyotha['mandalay']['other']=0;
-$amyotha['mon']['other']=0;
+$amyotha['mon']['other']=1;
 $amyotha['naypyitaw']['other']=0;
 $amyotha['pegu']['other']=0;
 $amyotha['rakhine']['other']=5; //ANP = 5
@@ -190,7 +190,7 @@ $tine['kayar']['other']=0;
 $tine['kayin']['other']=0;
 $tine['magway']['other']=0;
 $tine['mandalay']['other']=0;
-$tine['mon']['other']=0;
+$tine['mon']['other']=2;
 //$tine['naypyitaw']['other']=0;
 $tine['pegu']['other']=0;
 $tine['rakhine']['other']=4;  //ANP =4

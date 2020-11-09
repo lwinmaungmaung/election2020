@@ -215,6 +215,15 @@ foreach($pyithu as $index=>$value){
     }
 }
 
+foreach($amyotha as $index=>$value){
+    foreach($value as $key => $data){
+        if($key=="nld")
+            $total_left += $data;
+        elseif($key=="usdp")
+            $total_right += $data;
+    }
+}
+
 $total_seats=161+315;
 
 ?>

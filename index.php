@@ -151,19 +151,19 @@ $tine['shan']['total']=110;
 $tine['tanintharyi']['total']=20;
 $tine['yangon']['total']=90;
 
-$tine['ayeyarwaddy']['nld']=4;
+$tine['ayeyarwaddy']['nld']=10;
 $tine['chin']['nld']=0;
 $tine['kachin']['nld']=0;
 $tine['kayar']['nld']=0;
 $tine['kayin']['nld']=0;
-$tine['magway']['nld']=9;
-$tine['mandalay']['nld']=8;
+$tine['magway']['nld']=8;
+$tine['mandalay']['nld']=4;
 $tine['mon']['nld']=0;
 //$tine['naypyitaw']['nld']=0;
-$tine['pegu']['nld']=0;
+$tine['pegu']['nld']=8;
 $tine['rakhine']['nld']=2;
-$tine['sagaing']['nld']=4;
-$tine['shan']['nld']=3;
+$tine['sagaing']['nld']=8;
+$tine['shan']['nld']=1;
 $tine['tanintharyi']['nld']=0;
 $tine['yangon']['nld']=41;
 

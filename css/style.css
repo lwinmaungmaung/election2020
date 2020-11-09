@@ -82,6 +82,15 @@
 .usdp-leading{
     background-color: lightgreen;
 }
+.nld-won{
+    background-color: red;
+}
+.usdp-won{
+    background-color: green;
+}
+.other-won{
+    background-color: orange;
+}
 /*@media only screen and (max-width: 600px){*/
 /*    .party-information{*/
 /*        margin-top: 40px;*/

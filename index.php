@@ -22,15 +22,15 @@ $pyithu['kachin']['nld']=5;//unconfirmed
 $pyithu['kayar']['nld']=0;
 $pyithu['kayin']['nld']=0;
 $pyithu['magway']['nld']=4;
-$pyithu['mandalay']['nld']=4;
+$pyithu['mandalay']['nld']=7;
 $pyithu['mon']['nld']=0;
 $pyithu['naypyitaw']['nld']=1;
-$pyithu['pegu']['nld']=0;
+$pyithu['pegu']['nld']=5;
 $pyithu['rakhine']['nld']=1;
-$pyithu['sagaing']['nld']=3;
+$pyithu['sagaing']['nld']=6;
 $pyithu['shan']['nld']=0; //unconfirmed
 $pyithu['tanintharyi']['nld']=0;
-$pyithu['yangon']['nld']=17;
+$pyithu['yangon']['nld']=22;
 
 $pyithu['ayeyarwaddy']['usdp']=0;
 $pyithu['chin']['usdp']=0;
@@ -90,7 +90,7 @@ $amyotha['kachin']['nld']=0;
 $amyotha['kayar']['nld']=0;
 $amyotha['kayin']['nld']=0;
 $amyotha['magway']['nld']=0;
-$amyotha['mandalay']['nld']=1;
+$amyotha['mandalay']['nld']=0;
 $amyotha['mon']['nld']=0;
 $amyotha['naypyitaw']['nld']=0;
 $amyotha['pegu']['nld']=0;
@@ -157,15 +157,15 @@ $tine['kachin']['nld']=0;
 $tine['kayar']['nld']=0;
 $tine['kayin']['nld']=0;
 $tine['magway']['nld']=8;
-$tine['mandalay']['nld']=4;
+$tine['mandalay']['nld']=10;
 $tine['mon']['nld']=0;
 //$tine['naypyitaw']['nld']=0;
-$tine['pegu']['nld']=8;
+$tine['pegu']['nld']=10;
 $tine['rakhine']['nld']=2;
-$tine['sagaing']['nld']=8;
+$tine['sagaing']['nld']=10;
 $tine['shan']['nld']=1;
 $tine['tanintharyi']['nld']=0;
-$tine['yangon']['nld']=41;
+$tine['yangon']['nld']=44;
 
 $tine['ayeyarwaddy']['usdp']=0;
 $tine['chin']['usdp']=0;
@@ -195,9 +195,71 @@ $tine['mon']['other']=0;
 $tine['pegu']['other']=0;
 $tine['rakhine']['other']=0;
 $tine['sagaing']['other']=0;
-$tine['shan']['other']=1;
+$tine['shan']['other']=0;
 $tine['tanintharyi']['other']=0;
 $tine['yangon']['other']=0;
+
+//tine yin thar
+
+$cultural['ayeyarwaddy']['total']=2;
+$cultural['chin']['total']=0;
+$cultural['kachin']['total']=4;
+$cultural['kayar']['total']=1;
+$cultural['kayin']['total']=3;
+$cultural['magway']['total']=1;
+$cultural['mandalay']['total']=1;
+$cultural['mon']['total']=3;
+$cultural['pegu']['total']=1;
+$cultural['rakhine']['total']=1;
+$cultural['sagaing']['total']=2;
+$cultural['shan']['total']=7;
+$cultural['tanintharyi']['total']=1;
+$cultural['yangon']['total']=2;
+
+$cultural['ayeyarwaddy']['nld']=0;
+$cultural['chin']['nld']=0;
+$cultural['kachin']['nld']=0;
+$cultural['kayar']['nld']=0;
+$cultural['kayin']['nld']=0;
+$cultural['magway']['nld']=0;
+$cultural['mandalay']['nld']=0; //unconfirmed
+$cultural['mon']['nld']=0;
+$cultural['pegu']['nld']=0;
+$cultural['rakhine']['nld']=0;
+$cultural['sagaing']['nld']=0;
+$cultural['shan']['nld']=0;
+$cultural['tanintharyi']['nld']=0;
+$cultural['yangon']['nld']=0;
+
+$cultural['ayeyarwaddy']['usdp']=0;
+$cultural['chin']['usdp']=0;
+$cultural['kachin']['usdp']=0;
+$cultural['kayar']['usdp']=0;
+$cultural['kayin']['usdp']=0;
+$cultural['magway']['usdp']=0;
+$cultural['mandalay']['usdp']=0;
+$cultural['mon']['usdp']=0;
+$cultural['pegu']['usdp']=0;
+$cultural['rakhine']['usdp']=0;
+$cultural['sagaing']['usdp']=0;
+$cultural['shan']['usdp']=0;
+$cultural['tanintharyi']['usdp']=0;
+$cultural['yangon']['usdp']=0;
+
+$cultural['ayeyarwaddy']['other']=0;
+$cultural['chin']['other']=0;
+$cultural['kachin']['other']=0;
+$cultural['kayar']['other']=0;
+$cultural['kayin']['other']=0;
+$cultural['magway']['other']=0;
+$cultural['mandalay']['other']=0;
+$cultural['mon']['other']=0;
+$cultural['pegu']['other']=0;
+$cultural['rakhine']['other']=0;
+$cultural['sagaing']['other']=0;
+$cultural['shan']['other']=0;
+$cultural['tanintharyi']['other']=0;
+$cultural['yangon']['other']=0;
 
 $left_unconfirmed = 430+166+167+113+40+42+41;
 $totalvotes['left'] = $left_unconfirmed+79+99+100+80+6+3+1154+448+1395+1397+448+447+166+604+515+257+836+435+219+435+219+750+812+1911+1891+1903+793+4890+4912+4879+595+12080+16954+5555+12067+5205+100000+43101+17990;
@@ -577,6 +639,69 @@ $total_state_seats=660;
                                 $bgcolor = "other-leading";
                         }
 
+                        ?>
+
+                        <th scope="row" class="text-capitalize <?php echo $bgcolor; ?>"><?php echo $key." (".$item['total'].")";?> </th>
+                        <td><?php echo number_format($item['nld']/$item['total']*100,2,'.','')."% (".$item['nld'].")" ; ?></td>
+                        <td><?php echo number_format($item['usdp']/$item['total']*100,2,'.','')."% (".$item['usdp'].")" ; ?></td>
+                        <td><?php echo number_format($item['other']/$item['total']*100,2,'.','')."% (".$item['other'].")" ; ?></td>
+                    </tr>
+                    <?php if ($i == intval(count($tine)/2)-1 || $i == count($tine)-1):?>
+                        </tbody>
+                        </table>
+                        </div>
+
+                        <!--                <div class="col-md-6">-->
+                    <?php endif;?>
+                    <?php $i++; ?>
+                <?php endforeach;?>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <br>
+            <h2 class="text-center h2">Tine Yin Thar Yay Yar Wun Gyi</h2>
+            <hr width="50%" class="text-center">
+            <div class="row justify-content-center">
+                <?php $i=0;?>
+                <?php foreach ($cultural as $key=>$item):?>
+                    <?php if ($i==0 || $i == intval(count($tine)/2)): ?>
+                        <div class="col-md-6">
+                        <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">NLD</th>
+                            <th scope="col">USDP</th>
+                            <th scope="col">Other</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                    <?php endif;?>
+                    <tr>
+                        <?php
+                        if($item['nld']==0&&$item['usdp']==0&&$item['other']==0) $bgcolor="tie-leading";
+                        else if($item['total']==$item['nld']) $bgcolor = "nld-won text-white";
+                        else if($item['total']==$item['usdp']) $bgcolor = "usdp-won text-white";
+                        else if($item['total']==$item['other']) $bgcolor = "usdp-won text-white";
+                        else if($item['nld']>$item['usdp'] && $item['nld']>$item['other']){
+                            $bgcolor = "nld-leading";
+                        }
+                        else if($item['nld']==$item['usdp']&& $item['nld']>0){
+                            $bgcolor = "tie-leading";
+                        }
+                        else{
+                            if($item['usdp']>$item['nld'] && $item['usdp']>$item['other']){
+                                $bgcolor = "usdp-leading";
+                            }
+                            else
+                                $bgcolor = "other-leading";
+                        }
+                        if($item['total']==0)
+                            $item['total']=1;
                         ?>
 
                         <th scope="row" class="text-capitalize <?php echo $bgcolor; ?>"><?php echo $key." (".$item['total'].")";?> </th>

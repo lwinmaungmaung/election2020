@@ -16,21 +16,21 @@ $pyithu['shan']['total']=55;
 $pyithu['tanintharyi']['total']=10;
 $pyithu['yangon']['total']=45;
 
-$pyithu['ayeyarwaddy']['nld']=1;
+$pyithu['ayeyarwaddy']['nld']=4;
 $pyithu['chin']['nld']=1;//UEC unconfirmed
 $pyithu['kachin']['nld']=5;//unconfirmed
 $pyithu['kayar']['nld']=0;
 $pyithu['kayin']['nld']=0;
-$pyithu['magway']['nld']=3;
+$pyithu['magway']['nld']=4;
 $pyithu['mandalay']['nld']=4;
 $pyithu['mon']['nld']=0;
 $pyithu['naypyitaw']['nld']=1;
 $pyithu['pegu']['nld']=0;
 $pyithu['rakhine']['nld']=1;
-$pyithu['sagaing']['nld']=2;
-$pyithu['shan']['nld']=1;
+$pyithu['sagaing']['nld']=3;
+$pyithu['shan']['nld']=0; //unconfirmed
 $pyithu['tanintharyi']['nld']=0;
-$pyithu['yangon']['nld']=13;
+$pyithu['yangon']['nld']=17;
 
 $pyithu['ayeyarwaddy']['usdp']=0;
 $pyithu['chin']['usdp']=0;
@@ -98,7 +98,7 @@ $amyotha['rakhine']['nld']=0;
 $amyotha['sagaing']['nld']=0;
 $amyotha['shan']['nld']=0;
 $amyotha['tanintharyi']['nld']=0;
-$amyotha['yangon']['nld']=0;
+$amyotha['yangon']['nld']=1;
 
 $amyotha['ayeyarwaddy']['usdp']=0;
 $amyotha['chin']['usdp']=0;
@@ -206,6 +206,7 @@ $totalvotes['right'] = $right_unconfirmed+29+8+4+29+237+251+602+0+896+419+5+4+61
 
 $total_left=0;
 $total_right=0;
+$total_other=0;
 foreach($pyithu as $index=>$value){
     foreach($value as $key => $data){
         if($key=="nld")
@@ -223,8 +224,23 @@ foreach($amyotha as $index=>$value){
             $total_right += $data;
     }
 }
+$tine_total=660;
+$tine_left=0;
+$tine_right=0;
+$tine_other=0;
+foreach($tine as $index=>$value){
+    foreach($value as $key => $data){
+        if($key=="nld")
+            $tine_left += $data;
+        elseif($key=="usdp")
+            $tine_right += $data;
+        elseif($key=="other")
+            $tine_other += $data;
+    }
+}
 
 $total_seats=161+315;
+$total_state_seats=660;
 
 ?>
 
@@ -304,6 +320,29 @@ $total_seats=161+315;
                     <h4 class="h5"><?php echo number_format($totalvotes['right']); ?> <br>votes</h4>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <b><span class="h3">322</span> Seats of <span class="text-danger">Pyithu</span> Hluttaw and <span class="text-success">Amyotha</span> Hluttaw required to win the election.</b>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <hr>
+            <h2 class="h2 text-center">State/Division Hluttaw</h2>
+            <div class="progress">
+                <div class="progress-bar nld-won" role="progressbar" style="width: <?php echo ($tine_left/$total_state_seats)*100?>%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar usdp-won" role="progressbar" style="width: <?php echo ($tine_right/$total_state_seats)*100?>%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar other-won" role="progressbar" style="width: <?php echo ($tine_other/$total_state_seats)*100?>%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col"><button type="button" class="btn nld-won"> &nbsp; </button> NLD Won </li></div>
+                <div class="col"><button type="button" class="btn usdp-won"> &nbsp; </button> USDP Won</li></div>
+                <div class="col"><button type="button" class="btn other-won"> &nbsp; </button> Other Parties (one or more)</li></div>
+            </div>
+            <hr>
         </div>
     </div>
     <div class="row">

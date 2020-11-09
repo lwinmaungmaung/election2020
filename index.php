@@ -24,7 +24,7 @@ $pyithu['kayin']['nld']=0;
 $pyithu['magway']['nld']=4;
 $pyithu['mandalay']['nld']=8; //UEC Confirmed
 $pyithu['mon']['nld']=0;
-$pyithu['naypyitaw']['nld']=1;
+$pyithu['naypyitaw']['nld']=0;
 $pyithu['pegu']['nld']=8;
 $pyithu['rakhine']['nld']=1;
 $pyithu['sagaing']['nld']=9;
@@ -44,7 +44,7 @@ $pyithu['naypyitaw']['usdp']=1;
 $pyithu['pegu']['usdp']=0;
 $pyithu['rakhine']['usdp']=2;
 $pyithu['sagaing']['usdp']=0;
-$pyithu['shan']['usdp']=2;
+$pyithu['shan']['usdp']=15;
 $pyithu['tanintharyi']['usdp']=0;
 $pyithu['yangon']['usdp']=0;
 
@@ -159,10 +159,9 @@ $tine['kayin']['nld']=0;
 $tine['magway']['nld']=8;
 $tine['mandalay']['nld']=10;
 $tine['mon']['nld']=0;
-//$tine['naypyitaw']['nld']=0;
-$tine['pegu']['nld']=10;
+$tine['pegu']['nld']=16;
 $tine['rakhine']['nld']=0;
-$tine['sagaing']['nld']=14;
+$tine['sagaing']['nld']=16;
 $tine['shan']['nld']=3;
 $tine['tanintharyi']['nld']=0;
 $tine['yangon']['nld']=46;
@@ -498,6 +497,7 @@ $total_state_seats=660;
                             <th scope="col">NLD</th>
                             <th scope="col">USDP</th>
                             <th scope="col">Other</th>
+                            <th scope="col">Reported</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -530,6 +530,7 @@ $total_state_seats=660;
                         <td><?php echo number_format($item['nld']/$item['total']*100,2,'.','')."% (".$item['nld'].")" ; ?></td>
                         <td><?php echo number_format($item['usdp']/$item['total']*100,2,'.','')."% (".$item['usdp'].")" ; ?></td>
                         <td><?php echo number_format($item['other']/$item['total']*100,2,'.','')."% (".$item['other'].")" ; ?></td>
+                        <td class="text-right text-muted"><?php echo number_format(($item['other']+$item['usdp']+$item['nld'])/$item['total']*100,2,'.','')."%" ; ?></td>
                     </tr>
                     <?php if ($i == intval(count($pyithu)/2) || $i == count($pyithu)-1):?>
                         </tbody>
@@ -560,6 +561,7 @@ $total_state_seats=660;
                                 <th scope="col">NLD</th>
                                 <th scope="col">USDP</th>
                                 <th scope="col">Other</th>
+                                <th scope="col">Reported</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -592,6 +594,7 @@ $total_state_seats=660;
                             <td><?php echo number_format($item['nld']/$item['total']*100,2,'.','')."% (".$item['nld'].")" ; ?></td>
                             <td><?php echo number_format($item['usdp']/$item['total']*100,2,'.','')."% (".$item['usdp'].")" ; ?></td>
                             <td><?php echo number_format($item['other']/$item['total']*100,2,'.','')."% (".$item['other'].")" ; ?></td>
+                            <td class="text-right text-muted"><?php echo number_format(($item['other']+$item['usdp']+$item['nld'])/$item['total']*100,2,'.','')."%" ; ?></td>
                         </tr>
                         <?php if ($i == intval(count($amyotha)/2) || $i == count($amyotha)-1):?>
                             </tbody>
@@ -622,6 +625,7 @@ $total_state_seats=660;
                             <th scope="col">NLD</th>
                             <th scope="col">USDP</th>
                             <th scope="col">Other</th>
+                            <th scope="col">Reported</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -653,6 +657,7 @@ $total_state_seats=660;
                         <td><?php echo number_format($item['nld']/$item['total']*100,2,'.','')."% (".$item['nld'].")" ; ?></td>
                         <td><?php echo number_format($item['usdp']/$item['total']*100,2,'.','')."% (".$item['usdp'].")" ; ?></td>
                         <td><?php echo number_format($item['other']/$item['total']*100,2,'.','')."% (".$item['other'].")" ; ?></td>
+                        <td class="text-right text-muted"><?php echo number_format(($item['other']+$item['usdp']+$item['nld'])/$item['total']*100,2,'.','')."%" ; ?></td>
                     </tr>
                     <?php if ($i == intval(count($tine)/2)-1 || $i == count($tine)-1):?>
                         </tbody>
@@ -684,6 +689,7 @@ $total_state_seats=660;
                             <th scope="col">NLD</th>
                             <th scope="col">USDP</th>
                             <th scope="col">Other</th>
+                            <th scope="col">Reported</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -716,6 +722,7 @@ $total_state_seats=660;
                         <td><?php echo number_format($item['nld']/$item['total']*100,2,'.','')."% (".$item['nld'].")" ; ?></td>
                         <td><?php echo number_format($item['usdp']/$item['total']*100,2,'.','')."% (".$item['usdp'].")" ; ?></td>
                         <td><?php echo number_format($item['other']/$item['total']*100,2,'.','')."% (".$item['other'].")" ; ?></td>
+                        <td class="text-right text-muted"><?php echo number_format(($item['other']+$item['usdp']+$item['nld'])/$item['total']*100,2,'.','')."%" ; ?></td>
                     </tr>
                     <?php if ($i == intval(count($tine)/2)-1 || $i == count($tine)-1):?>
                         </tbody>

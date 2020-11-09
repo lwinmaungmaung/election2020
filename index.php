@@ -141,7 +141,7 @@ $tine['kachin']['total']=36;
 $tine['kayar']['total']=14;
 $tine['kayin']['total']=14;
 $tine['magway']['total']=50;
-$tine['mandalay']['total']=48;
+$tine['mandalay']['total']=56;
 $tine['mon']['total']=20;
 //$tine['naypyitaw']['total']=16;
 $tine['pegu']['total']=56;
@@ -157,7 +157,7 @@ $tine['kachin']['nld']=0;
 $tine['kayar']['nld']=0;
 $tine['kayin']['nld']=0;
 $tine['magway']['nld']=0;
-$tine['mandalay']['nld']=48;
+$tine['mandalay']['nld']=45;
 $tine['mon']['nld']=0;
 //$tine['naypyitaw']['nld']=0;
 $tine['pegu']['nld']=0;
@@ -357,6 +357,20 @@ $total_seats=161+315;
                 </circle>
             </svg>
         </div>
+        <div class="col-md-4 offset-md-3">
+            <br>
+            <h3 class="h3">Description</h3>
+            <hr>
+            <ul class="list-unstyled">
+                <li class="py-2"><button type="button" class="btn tie-leading"> &nbsp; </button> Racing States</li>
+                <li class="py-2"><button type="button" class="btn nld-leading"> &nbsp; </button> NLD Leading States</li>
+                <li class="py-2"><button type="button" class="btn nld-won"> &nbsp; </button> NLD Won (Most Seated) States</li>
+                <li class="py-2"><button type="button" class="btn usdp-leading"> &nbsp; </button> USDP Leading States</li>
+                <li class="py-2"><button type="button" class="btn usdp-won"> &nbsp; </button> USDP Won (Most Seated) States</li>
+                <li class="py-2"><button type="button" class="btn other-leading"> &nbsp; </button> Other Parties (one or more) Leading States</li>
+                <li class="py-2"><button type="button" class="btn other-won"> &nbsp; </button> Other Parties (one or more) States</li>
+            </ul>
+        </div>
     </div>
     <div class="row">
         <div class="col-md-12">
@@ -428,7 +442,7 @@ $total_seats=161+315;
                 <div class="row">
                     <?php $i=0;?>
                     <?php foreach ($amyotha as $key=>$item):?>
-                        <?php if ($i==0 || $i == intval(count($pyithu)/2)+1): ?>
+                        <?php if ($i==0 || $i == intval(count($amyotha)/2)+1): ?>
                             <div class="col-md-6">
                             <table class="table">
                             <thead>
@@ -470,7 +484,7 @@ $total_seats=161+315;
                             <td><?php echo number_format($item['usdp']/$item['total']*100,2,'.','')."% (".$item['usdp'].")" ; ?></td>
                             <td><?php echo number_format($item['other']/$item['total']*100,2,'.','')."% (".$item['other'].")" ; ?></td>
                         </tr>
-                        <?php if ($i == intval(count($pyithu)/2) || $i == count($pyithu)-1):?>
+                        <?php if ($i == intval(count($amyotha)/2) || $i == count($amyotha)-1):?>
                             </tbody>
                             </table>
                             </div>
@@ -487,10 +501,10 @@ $total_seats=161+315;
             <br>
             <h2 class="text-center h2">State/Division Hluttaw</h2>
             <hr width="50%" class="text-center">
-            <div class="row">
+            <div class="row justify-content-center">
                 <?php $i=0;?>
                 <?php foreach ($tine as $key=>$item):?>
-                    <?php if ($i==0 || $i == intval(count($pyithu)/2)+1): ?>
+                    <?php if ($i==0 || $i == intval(count($tine)/2)): ?>
                         <div class="col-md-6">
                         <table class="table">
                         <thead>
@@ -531,18 +545,27 @@ $total_seats=161+315;
                         <td><?php echo number_format($item['usdp']/$item['total']*100,2,'.','')."% (".$item['usdp'].")" ; ?></td>
                         <td><?php echo number_format($item['other']/$item['total']*100,2,'.','')."% (".$item['other'].")" ; ?></td>
                     </tr>
-                    <?php if ($i == intval(count($pyithu)/2) || $i == count($pyithu)-1):?>
+                    <?php if ($i == intval(count($tine)/2)-1 || $i == count($tine)-1):?>
                         </tbody>
                         </table>
                         </div>
+
                         <!--                <div class="col-md-6">-->
                     <?php endif;?>
                     <?php $i++; ?>
                 <?php endforeach;?>
             </div>
-
         </div>
     </div>
+    <div class="row justify-content-center my-5">
+        <div class="col-md-8 text-center">
+            DISCLAIMER: The data provided is as-is, and we do not guarantee that the information certainty is absolute.
+            <br> Data can change by time without prior notice. In case of any dispute, <br>the Union Election Commission's Report is final.
+            <br><br>
+            Lovely Family Host &copy; MMXX. All Rights Reserved. <br>The logos and the map copyrights belong to their respective owners.
+        </div>
+    </div>
+</div>
 </div>
 </div>
 <!--<div class="container-fluid">-->

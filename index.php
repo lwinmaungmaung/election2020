@@ -200,9 +200,9 @@ $tine['tanintharyi']['other']=0;
 $tine['yangon']['other']=0;
 
 $left_unconfirmed = 430+166+167+113+40+42+41;
-$totalvotes['left'] = $left_unconfirmed+79+99+100+80+6+3+1154+448+1395+1397+448+447+166+604+515+257+836+435+219+435+219+750+812+1911+1891+1903+793+4890+4912+4879+595+12080+16954+5555+12067+5205;
+$totalvotes['left'] = $left_unconfirmed+79+99+100+80+6+3+1154+448+1395+1397+448+447+166+604+515+257+836+435+219+435+219+750+812+1911+1891+1903+793+4890+4912+4879+595+12080+16954+5555+12067+5205+100000;
 $right_unconfirmed = 173+8+9+44+36+36+37;
-$totalvotes['right'] = $right_unconfirmed+29+8+4+29+237+251+602+0+896+419+5+4+61+158+122+120+382+98+25+98+25+203+75+83+100+100+198+2308+2328+2314+508+13675;
+$totalvotes['right'] = $right_unconfirmed+29+8+4+29+237+251+602+0+896+419+5+4+61+158+122+120+382+98+25+98+25+203+75+83+100+100+198+2308+2328+2314+508+13675+89000;
 
 $total_left=0;
 $total_right=0;
@@ -373,25 +373,25 @@ $total_seats=161+315;
                     <?php endif;?>
                     <tr>
                         <?php
-                            if($item['nld']==0&&$item['usdp']==0&&$item['other']==0) $bgcolor="bg-secondary";
+                            if($item['nld']==0&&$item['usdp']==0&&$item['other']==0) $bgcolor="tie-leading";
                             else if($item['nld']>$item['usdp'] && $item['nld']>$item['other']){
-                                $bgcolor = "bg-danger";
+                                $bgcolor = "nld-leading";
                             }
                             else if($item['nld']==$item['usdp']&& $item['nld']>0){
-                                $bgcolor = "bg-dark";
+                                $bgcolor = "tie-leading";
                             }
 
                             else{
                                 if($item['usdp']>$item['nld'] && $item['usdp']>$item['other']){
-                                    $bgcolor = "bg-success";
+                                    $bgcolor = "usdp-leading";
                                 }
                                 else
-                                    $bgcolor = "bg-warning";
+                                    $bgcolor = "other-leading";
                             }
 
                         ?>
 
-                        <th scope="row" class="text-capitalize <?php echo $bgcolor; ?> text-white"><?php echo $key." (".$item['total'].")";?> </th>
+                        <th scope="row" class="text-capitalize <?php echo $bgcolor; ?> "><?php echo $key." (".$item['total'].")";?> </th>
                         <td><?php echo number_format($item['nld']/$item['total']*100,2,'.','')."% (".$item['nld'].")" ; ?></td>
                         <td><?php echo number_format($item['usdp']/$item['total']*100,2,'.','')."% (".$item['usdp'].")" ; ?></td>
                         <td><?php echo number_format($item['other']/$item['total']*100,2,'.','')."% (".$item['other'].")" ; ?></td>
@@ -432,25 +432,25 @@ $total_seats=161+315;
                         <?php endif;?>
                         <tr>
                             <?php
-                            if($item['nld']==0&&$item['usdp']==0&&$item['other']==0) $bgcolor="bg-secondary";
+                            if($item['nld']==0&&$item['usdp']==0&&$item['other']==0) $bgcolor="tie-leading";
                             else if($item['nld']>$item['usdp'] && $item['nld']>$item['other']){
-                                $bgcolor = "bg-danger";
+                                $bgcolor = "nld-leading";
                             }
-                            else if($item['nld']==$item['usdp']){
-                                $bgcolor = "bg-dark";
+                            else if($item['nld']==$item['usdp']&& $item['nld']>0){
+                                $bgcolor = "tie-leading";
                             }
 
                             else{
                                 if($item['usdp']>$item['nld'] && $item['usdp']>$item['other']){
-                                    $bgcolor = "bg-success";
+                                    $bgcolor = "usdp-leading";
                                 }
                                 else
-                                    $bgcolor = "bg-warning";
+                                    $bgcolor = "other-leading";
                             }
 
                             ?>
 
-                            <th scope="row" class="text-capitalize <?php echo $bgcolor; ?> text-white"><?php echo $key." (".$item['total'].")";?> </th>
+                            <th scope="row" class="text-capitalize <?php echo $bgcolor; ?>"><?php echo $key." (".$item['total'].")";?> </th>
                             <td><?php echo number_format($item['nld']/$item['total']*100,2,'.','')."% (".$item['nld'].")" ; ?></td>
                             <td><?php echo number_format($item['usdp']/$item['total']*100,2,'.','')."% (".$item['usdp'].")" ; ?></td>
                             <td><?php echo number_format($item['other']/$item['total']*100,2,'.','')."% (".$item['other'].")" ; ?></td>
@@ -491,25 +491,25 @@ $total_seats=161+315;
                     <?php endif;?>
                     <tr>
                         <?php
-                        if($item['nld']==0&&$item['usdp']==0&&$item['other']==0) $bgcolor="bg-secondary";
+                        if($item['nld']==0&&$item['usdp']==0&&$item['other']==0) $bgcolor="tie-leading";
                         else if($item['nld']>$item['usdp'] && $item['nld']>$item['other']){
-                            $bgcolor = "bg-danger";
+                            $bgcolor = "nld-leading";
                         }
-                        else if($item['nld']==$item['usdp']){
-                            $bgcolor = "bg-dark";
+                        else if($item['nld']==$item['usdp']&& $item['nld']>0){
+                            $bgcolor = "tie-leading";
                         }
 
                         else{
                             if($item['usdp']>$item['nld'] && $item['usdp']>$item['other']){
-                                $bgcolor = "bg-success";
+                                $bgcolor = "usdp-leading";
                             }
                             else
-                                $bgcolor = "bg-warning";
+                                $bgcolor = "other-leading";
                         }
 
                         ?>
 
-                        <th scope="row" class="text-capitalize <?php echo $bgcolor; ?> text-white"><?php echo $key." (".$item['total'].")";?> </th>
+                        <th scope="row" class="text-capitalize <?php echo $bgcolor; ?>"><?php echo $key." (".$item['total'].")";?> </th>
                         <td><?php echo number_format($item['nld']/$item['total']*100,2,'.','')."% (".$item['nld'].")" ; ?></td>
                         <td><?php echo number_format($item['usdp']/$item['total']*100,2,'.','')."% (".$item['usdp'].")" ; ?></td>
                         <td><?php echo number_format($item['other']/$item['total']*100,2,'.','')."% (".$item['other'].")" ; ?></td>

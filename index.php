@@ -19,7 +19,7 @@ $pyithu['tanintharyi']['total']=10;
 $pyithu['yangon']['total']=45;
 
 $pyithu['ayeyarwaddy']['nld']=26;
-$pyithu['chin']['nld']=5; //UEC unconfirmed
+$pyithu['chin']['nld']=7; //UEC unconfirmed
 $pyithu['kachin']['nld']=7;//unconfirmed
 $pyithu['kayar']['nld']=2;
 $pyithu['kayin']['nld']=6;
@@ -30,7 +30,7 @@ $pyithu['naypyitaw']['nld']=0;
 $pyithu['pegu']['nld']=28;
 $pyithu['rakhine']['nld']=2;
 $pyithu['sagaing']['nld']=36;
-$pyithu['shan']['nld']=6;
+$pyithu['shan']['nld']=7;
 $pyithu['tanintharyi']['nld']=10;
 $pyithu['yangon']['nld']=44;  //UEC confirmed
 
@@ -89,22 +89,22 @@ $amyotha['tanintharyi']['total']=12;
 $amyotha['yangon']['total']=12;
 
 $amyotha['ayeyarwaddy']['nld']=10;
-$amyotha['chin']['nld']=8;
-$amyotha['kachin']['nld']=5;
+$amyotha['chin']['nld']=9;
+$amyotha['kachin']['nld']=6;
 $amyotha['kayar']['nld']=3;
 $amyotha['kayin']['nld']=10;
 $amyotha['magway']['nld']=12;
 $amyotha['mandalay']['nld']=12;
 $amyotha['mon']['nld']=8;
 $amyotha['naypyitaw']['nld']=0;
-$amyotha['pegu']['nld']=11;
-$amyotha['rakhine']['nld']=0;
+$amyotha['pegu']['nld']=12;
+$amyotha['rakhine']['nld']=1;
 $amyotha['sagaing']['nld']=12;
 $amyotha['shan']['nld']=0;
 $amyotha['tanintharyi']['nld']=12;
 $amyotha['yangon']['nld']=12;
 
-//total : 115
+//total : 119
 
 $amyotha['ayeyarwaddy']['usdp']=0;
 $amyotha['chin']['usdp']=0;
@@ -157,20 +157,20 @@ $tine['shan']['total']=110;
 $tine['tanintharyi']['total']=20;
 $tine['yangon']['total']=90;
 
-$tine['ayeyarwaddy']['nld']=36;
-$tine['chin']['nld']=7;
-$tine['kachin']['nld']=7;
+$tine['ayeyarwaddy']['nld']=43;
+$tine['chin']['nld']=14;
+$tine['kachin']['nld']=11;
 $tine['kayar']['nld']=4;
 $tine['kayin']['nld']=11;
-$tine['magway']['nld']=34;
-$tine['mandalay']['nld']=30;
-$tine['mon']['nld']=9;
-$tine['pegu']['nld']=34;
-$tine['rakhine']['nld']=2;
-$tine['sagaing']['nld']=45;
-$tine['shan']['nld']=9;
-$tine['tanintharyi']['nld']=10;
-$tine['yangon']['nld']=71;
+$tine['magway']['nld']=50;
+$tine['mandalay']['nld']=44;
+$tine['mon']['nld']=12;
+$tine['pegu']['nld']=46;
+$tine['rakhine']['nld']=4;
+$tine['sagaing']['nld']=47;
+$tine['shan']['nld']=15;
+$tine['tanintharyi']['nld']=20;
+$tine['yangon']['nld']=86;
 
 
 $tine['ayeyarwaddy']['usdp']=0;

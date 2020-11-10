@@ -18,23 +18,23 @@ $pyithu['shan']['total']=55;
 $pyithu['tanintharyi']['total']=10;
 $pyithu['yangon']['total']=45;
 
-$pyithu['ayeyarwaddy']['nld']=16;
-$pyithu['chin']['nld']=4;//UEC unconfirmed
-$pyithu['kachin']['nld']=0;//unconfirmed
+$pyithu['ayeyarwaddy']['nld']=18;
+$pyithu['chin']['nld']=4; //UEC unconfirmed
+$pyithu['kachin']['nld']=1;//unconfirmed
 $pyithu['kayar']['nld']=1;
 $pyithu['kayin']['nld']=4;
-$pyithu['magway']['nld']=16;
-$pyithu['mandalay']['nld']=19; //UEC Confirmed
+$pyithu['magway']['nld']=19;
+$pyithu['mandalay']['nld']=20; //UEC Confirmed
 $pyithu['mon']['nld']=6;
 $pyithu['naypyitaw']['nld']=0;
 $pyithu['pegu']['nld']=17;
 $pyithu['rakhine']['nld']=0;
-$pyithu['sagaing']['nld']=22;
+$pyithu['sagaing']['nld']=23;
 $pyithu['shan']['nld']=3;
 $pyithu['tanintharyi']['nld']=4;
-$pyithu['yangon']['nld']=33;  //UEC confirmed
+$pyithu['yangon']['nld']=36;  //UEC confirmed
 
-//total = 145
+//total = 156
 
 $pyithu['ayeyarwaddy']['usdp']=0;
 $pyithu['chin']['usdp']=0;
@@ -90,21 +90,21 @@ $amyotha['yangon']['total']=12;
 
 $amyotha['ayeyarwaddy']['nld']=3;
 $amyotha['chin']['nld']=5;
-$amyotha['kachin']['nld']=0;
+$amyotha['kachin']['nld']=1;
 $amyotha['kayar']['nld']=1;
-$amyotha['kayin']['nld']=3;
+$amyotha['kayin']['nld']=5;
 $amyotha['magway']['nld']=2;
 $amyotha['mandalay']['nld']=2;
 $amyotha['mon']['nld']=4;
 $amyotha['naypyitaw']['nld']=0;
 $amyotha['pegu']['nld']=2;
 $amyotha['rakhine']['nld']=0;
-$amyotha['sagaing']['nld']=3;
+$amyotha['sagaing']['nld']=4;
 $amyotha['shan']['nld']=0;
 $amyotha['tanintharyi']['nld']=5;
 $amyotha['yangon']['nld']=5;
 
-//total :35
+//total :39
 
 $amyotha['ayeyarwaddy']['usdp']=0;
 $amyotha['chin']['usdp']=0;
@@ -157,20 +157,20 @@ $tine['shan']['total']=110;
 $tine['tanintharyi']['total']=20;
 $tine['yangon']['total']=90;
 
-$tine['ayeyarwaddy']['nld']=31;
-$tine['chin']['nld']=6;
-$tine['kachin']['nld']=0;
+$tine['ayeyarwaddy']['nld']=34;
+$tine['chin']['nld']=18;
+$tine['kachin']['nld']=1;
 $tine['kayar']['nld']=2;
 $tine['kayin']['nld']=7;
-$tine['magway']['nld']=28;
+$tine['magway']['nld']=31;
 $tine['mandalay']['nld']=23;
 $tine['mon']['nld']=6;
 $tine['pegu']['nld']=34;
 $tine['rakhine']['nld']=0;
-$tine['sagaing']['nld']=43;
+$tine['sagaing']['nld']=45;
 $tine['shan']['nld']=7;
 $tine['tanintharyi']['nld']=8;
-$tine['yangon']['nld']=66;
+$tine['yangon']['nld']=67;
 
 
 $tine['ayeyarwaddy']['usdp']=0;
@@ -270,7 +270,7 @@ $cultural['yangon']['other']=0;
 $left_unconfirmed = 430+166+167+113+40+42+41;
 //$totalvotes['left'] = $left_unconfirmed+79+99+100+80+6+3+1154+448+1395+1397+448+447+166+604+515+257+836+435+219+435+219+750+812+1911+1891+1903+793+4890+4912+4879+595+12080+16954+5555+12067+5205+100000+43101+17990;
 //$totalvotes['left']= (8236726*0+329804*0)+(1377679+733481+196193+520630+753004+33739+381686)*0+(741837+100661)*0+(1419+654220+517090+196914+573171+1353021+32201+382720+3487)*0+11263932;
-$totalvotes['left'] =  30423256;
+$totalvotes['left'] =  33433641;
 $right_unconfirmed = 173+8+9+44+36+36+37;
 $totalvotes['right'] = $right_unconfirmed+29+8+4+29+237+251+602+0+896+419+5+4+61+158+122+120+382+98+25+98+25+203+75+83+100+100+198+2308+2328+2314+508+13675+89000+32942+363285+80377;
 
@@ -407,6 +407,7 @@ $total_state_seats=660;
     <div class="row">
         <div class="col-md-12 text-center">
             <b><span class="h3">322</span> Seats of <span class="text-danger">Pyithu</span> Hluttaw and <span class="text-success">Amyotha</span> Hluttaw required to win the election.</b>
+            <br/><b>Total Eligible Voters = Approx: <span class="h3 blink">37</span> Mil (Source: UEC)</b>
         </div>
     </div>
     <div class="row">

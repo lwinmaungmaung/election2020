@@ -62,7 +62,7 @@ $pyithu['naypyitaw']['other']=0;
 $pyithu['pegu']['other']=0;
 $pyithu['rakhine']['other']=9;  //ANP =6, AFP=3
 $pyithu['sagaing']['other']=0;
-$pyithu['shan']['other']=18;
+$pyithu['shan']['other']=21; //paoh=3;SNLD=18;
 $pyithu['tanintharyi']['other']=0;
 $pyithu['yangon']['other']=0;
 
@@ -130,7 +130,7 @@ $amyotha['naypyitaw']['other']=0;
 $amyotha['pegu']['other']=0;
 $amyotha['rakhine']['other']=5; //ANP = 5
 $amyotha['sagaing']['other']=0;
-$amyotha['shan']['other']=9;
+$amyotha['shan']['other']=10; //SNLD=9;Paoh=1;
 $amyotha['tanintharyi']['other']=0;
 $amyotha['yangon']['other']=0;
 
@@ -156,14 +156,14 @@ $tine['yangon']['total']=90;
 $tine['ayeyarwaddy']['nld']=22;
 $tine['chin']['nld']=2;
 $tine['kachin']['nld']=0;
-$tine['kayar']['nld']=1;
+$tine['kayar']['nld']=2;
 $tine['kayin']['nld']=3;
-$tine['magway']['nld']=20;
+$tine['magway']['nld']=24;
 $tine['mandalay']['nld']=15;
 $tine['mon']['nld']=0;
-$tine['pegu']['nld']=24;
+$tine['pegu']['nld']=30;
 $tine['rakhine']['nld']=0;
-$tine['sagaing']['nld']=35;
+$tine['sagaing']['nld']=39;
 $tine['shan']['nld']=7;
 $tine['tanintharyi']['nld']=6;
 $tine['yangon']['nld']=56;
@@ -196,7 +196,7 @@ $tine['mon']['other']=2;
 $tine['pegu']['other']=0;
 $tine['rakhine']['other']=4;  //ANP =4
 $tine['sagaing']['other']=0;
-$tine['shan']['other']=16;
+$tine['shan']['other']=22; //SNLD=16; paoh=6;
 $tine['tanintharyi']['other']=0;
 $tine['yangon']['other']=0;
 
@@ -217,20 +217,20 @@ $cultural['shan']['total']=7;
 $cultural['tanintharyi']['total']=1;
 $cultural['yangon']['total']=2;
 
-$cultural['ayeyarwaddy']['nld']=0;
+$cultural['ayeyarwaddy']['nld']=2;
 $cultural['chin']['nld']=0;
-$cultural['kachin']['nld']=0;
-$cultural['kayar']['nld']=0;
-$cultural['kayin']['nld']=0;
-$cultural['magway']['nld']=0;
-$cultural['mandalay']['nld']=0; //unconfirmed
-$cultural['mon']['nld']=0;
-$cultural['pegu']['nld']=0;
-$cultural['rakhine']['nld']=0;
-$cultural['sagaing']['nld']=0;
-$cultural['shan']['nld']=0;
-$cultural['tanintharyi']['nld']=0;
-$cultural['yangon']['nld']=0;
+$cultural['kachin']['nld']=4;
+$cultural['kayar']['nld']=1;
+$cultural['kayin']['nld']=3;
+$cultural['magway']['nld']=1;
+$cultural['mandalay']['nld']=1; //unconfirmed
+$cultural['mon']['nld']=3;
+$cultural['pegu']['nld']=1;
+$cultural['rakhine']['nld']=1;
+$cultural['sagaing']['nld']=2;
+$cultural['shan']['nld']=7;
+$cultural['tanintharyi']['nld']=1;
+$cultural['yangon']['nld']=2;
 
 $cultural['ayeyarwaddy']['usdp']=0;
 $cultural['chin']['usdp']=0;
@@ -424,6 +424,14 @@ $total_state_seats=660;
             <h5 class="h5">SNLD</h5>
             <div class="progress">
                 <div class="progress-bar text-dark" role="progressbar" style="background-color: #f7dc31; width: 100%;" aria-valuenow="SNLD (45 Seat Won) in total seats" aria-valuemin="0" aria-valuemax="100">SNLD (45 Seat Won) in total seats</div>
+            </div>
+            <h5 class="h5">ANP</h5>
+            <div class="progress">
+                <div class="progress-bar text-white" role="progressbar" style="background-color: red; width: 34%;" aria-valuenow="ANP (15 Seat Won) in total seats" aria-valuemin="0" aria-valuemax="100">ANP (15 Seat Won) in total seats</div>
+            </div>
+            <h5 class="h5">PNO</h5>
+            <div class="progress">
+                <div class="progress-bar text-white" role="progressbar" style="background-color: #136d41; width: 23%;" aria-valuenow="PNO (10 Seat Won) in total seats" aria-valuemin="0" aria-valuemax="100">PNO (10 Seat Won) in total seats</div>
             </div>
             *highest seats places full.
             <hr>

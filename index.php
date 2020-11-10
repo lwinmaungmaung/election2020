@@ -235,7 +235,7 @@ $cultural['rakhine']['nld']=1;
 $cultural['sagaing']['nld']=2;
 $cultural['shan']['nld']=7;
 $cultural['tanintharyi']['nld']=1;
-$cultural['yangon']['nld']=2;
+$cultural['yangon']['nld']=1;
 
 $cultural['ayeyarwaddy']['usdp']=0;
 $cultural['chin']['usdp']=0;
@@ -265,7 +265,7 @@ $cultural['rakhine']['other']=0;
 $cultural['sagaing']['other']=0;
 $cultural['shan']['other']=0;
 $cultural['tanintharyi']['other']=0;
-$cultural['yangon']['other']=0;
+$cultural['yangon']['other']=1;
 
 $left_unconfirmed = 430+166+167+113+40+42+41;
 //$totalvotes['left'] = $left_unconfirmed+79+99+100+80+6+3+1154+448+1395+1397+448+447+166+604+515+257+836+435+219+435+219+750+812+1911+1891+1903+793+4890+4912+4879+595+12080+16954+5555+12067+5205+100000+43101+17990;

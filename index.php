@@ -18,23 +18,23 @@ $pyithu['shan']['total']=55;
 $pyithu['tanintharyi']['total']=10;
 $pyithu['yangon']['total']=45;
 
-$pyithu['ayeyarwaddy']['nld']=19;
-$pyithu['chin']['nld']=4; //UEC unconfirmed
-$pyithu['kachin']['nld']=4;//unconfirmed
+$pyithu['ayeyarwaddy']['nld']=26;
+$pyithu['chin']['nld']=5; //UEC unconfirmed
+$pyithu['kachin']['nld']=7;//unconfirmed
 $pyithu['kayar']['nld']=2;
-$pyithu['kayin']['nld']=4;
-$pyithu['magway']['nld']=19;
-$pyithu['mandalay']['nld']=23; //UEC Confirmed
+$pyithu['kayin']['nld']=6;
+$pyithu['magway']['nld']=25;
+$pyithu['mandalay']['nld']=35; //UEC Confirmed
 $pyithu['mon']['nld']=7;
 $pyithu['naypyitaw']['nld']=0;
-$pyithu['pegu']['nld']=17;
-$pyithu['rakhine']['nld']=1;
-$pyithu['sagaing']['nld']=23;
-$pyithu['shan']['nld']=4;
-$pyithu['tanintharyi']['nld']=5;
-$pyithu['yangon']['nld']=37;  //UEC confirmed
+$pyithu['pegu']['nld']=28;
+$pyithu['rakhine']['nld']=2;
+$pyithu['sagaing']['nld']=36;
+$pyithu['shan']['nld']=6;
+$pyithu['tanintharyi']['nld']=10;
+$pyithu['yangon']['nld']=44;  //UEC confirmed
 
-//total = 169
+//total = 239
 
 $pyithu['ayeyarwaddy']['usdp']=0;
 $pyithu['chin']['usdp']=0;
@@ -88,23 +88,23 @@ $amyotha['shan']['total']=12;
 $amyotha['tanintharyi']['total']=12;
 $amyotha['yangon']['total']=12;
 
-$amyotha['ayeyarwaddy']['nld']=4;
-$amyotha['chin']['nld']=6;
+$amyotha['ayeyarwaddy']['nld']=10;
+$amyotha['chin']['nld']=8;
 $amyotha['kachin']['nld']=5;
 $amyotha['kayar']['nld']=3;
 $amyotha['kayin']['nld']=10;
-$amyotha['magway']['nld']=5;
-$amyotha['mandalay']['nld']=2;
-$amyotha['mon']['nld']=5;
+$amyotha['magway']['nld']=12;
+$amyotha['mandalay']['nld']=12;
+$amyotha['mon']['nld']=8;
 $amyotha['naypyitaw']['nld']=0;
-$amyotha['pegu']['nld']=2;
+$amyotha['pegu']['nld']=11;
 $amyotha['rakhine']['nld']=0;
-$amyotha['sagaing']['nld']=4;
+$amyotha['sagaing']['nld']=12;
 $amyotha['shan']['nld']=0;
-$amyotha['tanintharyi']['nld']=6;
-$amyotha['yangon']['nld']=6;
+$amyotha['tanintharyi']['nld']=12;
+$amyotha['yangon']['nld']=12;
 
-//total : 58
+//total : 115
 
 $amyotha['ayeyarwaddy']['usdp']=0;
 $amyotha['chin']['usdp']=0;

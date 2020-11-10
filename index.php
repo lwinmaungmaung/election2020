@@ -455,13 +455,16 @@ $female = 21; //uec
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-12">
-            <hr>
-            <h3 class="h3 text-center">Total Votes = <b>33,839,163</b> Votes</h3>
-            <hr>
-        </div>
-    </div>
+    <hr>
+    <?php
+    //<div class="row">
+        //<div class="col-md-12">
+        //    <hr>
+        //    <h3 class="h3 text-center">Total Votes = <b>33,839,163</b> Votes</h3>
+        //    <hr>
+      //  </div>
+    //</div>
+    ?>
     <div class="row justify-content-center">
         <div class="col-md-4">
             <br>

@@ -312,6 +312,9 @@ foreach($tine as $index=>$value){
 $total_seats=161+315;
 $total_state_seats=660;
 
+$male = 51; //uec
+$female = 21; //uec
+
 ?>
 
 
@@ -441,6 +444,15 @@ $total_state_seats=660;
             </div>
             *highest seats places full.
             <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="h4 text-center">Elected Candidates by Gender</h3>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: <?php echo ($male/($male+$female))*100; ?>%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">Male <?php echo number_format(($male/($male+$female))*100,2); ?>%</div>
+                <div class="progress-bar nld-leading text-dark" role="progressbar" style="width: <?php echo ($female/($male+$female))*100; ?>%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">Female <?php echo number_format(($female/($male+$female))*100,2); ?>%</div>
+            </div>
         </div>
     </div>
     <div class="row">

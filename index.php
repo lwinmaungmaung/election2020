@@ -1,6 +1,6 @@
 <?php
 
-$paused = true;
+$paused = false;
 $pyithu = Array();
 $pyithu['ayeyarwaddy']['total']=26;
 $pyithu['chin']['total']=8;

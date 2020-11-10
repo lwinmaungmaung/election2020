@@ -1,6 +1,6 @@
 <?php
 
-$paused = false;
+$paused = true;
 $pyithu = Array();
 $pyithu['ayeyarwaddy']['total']=26;
 $pyithu['chin']['total']=8;
@@ -18,21 +18,21 @@ $pyithu['shan']['total']=55;
 $pyithu['tanintharyi']['total']=10;
 $pyithu['yangon']['total']=45;
 
-$pyithu['ayeyarwaddy']['nld']=5;
-$pyithu['chin']['nld']=0;//UEC unconfirmed
+$pyithu['ayeyarwaddy']['nld']=6;
+$pyithu['chin']['nld']=1;//UEC unconfirmed
 $pyithu['kachin']['nld']=0;//unconfirmed
-$pyithu['kayar']['nld']=1;
-$pyithu['kayin']['nld']=0;
-$pyithu['magway']['nld']=4;
-$pyithu['mandalay']['nld']=8; //UEC Confirmed
-$pyithu['mon']['nld']=1;
+$pyithu['kayar']['nld']=0;
+$pyithu['kayin']['nld']=2;
+$pyithu['magway']['nld']=7;
+$pyithu['mandalay']['nld']=9; //UEC Confirmed
+$pyithu['mon']['nld']=0;
 $pyithu['naypyitaw']['nld']=0;
-$pyithu['pegu']['nld']=8;
-$pyithu['rakhine']['nld']=1;
-$pyithu['sagaing']['nld']=9;
+$pyithu['pegu']['nld']=9;
+$pyithu['rakhine']['nld']=0;
+$pyithu['sagaing']['nld']=11;
 $pyithu['shan']['nld']=1;
-$pyithu['tanintharyi']['nld']=0;
-$pyithu['yangon']['nld']=23;  //UEC confirmed
+$pyithu['tanintharyi']['nld']=2;
+$pyithu['yangon']['nld']=24;  //UEC confirmed
 
 $pyithu['ayeyarwaddy']['usdp']=0;
 $pyithu['chin']['usdp']=0;
@@ -87,9 +87,9 @@ $amyotha['tanintharyi']['total']=12;
 $amyotha['yangon']['total']=12;
 
 $amyotha['ayeyarwaddy']['nld']=1;
-$amyotha['chin']['nld']=0;
+$amyotha['chin']['nld']=1;
 $amyotha['kachin']['nld']=0;
-$amyotha['kayar']['nld']=0;
+$amyotha['kayar']['nld']=1;
 $amyotha['kayin']['nld']=0;
 $amyotha['magway']['nld']=0;
 $amyotha['mandalay']['nld']=0;
@@ -99,7 +99,7 @@ $amyotha['pegu']['nld']=0;
 $amyotha['rakhine']['nld']=0;
 $amyotha['sagaing']['nld']=0;
 $amyotha['shan']['nld']=0;
-$amyotha['tanintharyi']['nld']=0;
+$amyotha['tanintharyi']['nld']=1;
 $amyotha['yangon']['nld']=3;
 
 $amyotha['ayeyarwaddy']['usdp']=0;
@@ -153,20 +153,20 @@ $tine['shan']['total']=110;
 $tine['tanintharyi']['total']=20;
 $tine['yangon']['total']=90;
 
-$tine['ayeyarwaddy']['nld']=10;
+$tine['ayeyarwaddy']['nld']=12;
 $tine['chin']['nld']=2;
 $tine['kachin']['nld']=0;
 $tine['kayar']['nld']=2;
-$tine['kayin']['nld']=0;
-$tine['magway']['nld']=8;
-$tine['mandalay']['nld']=10;
-$tine['mon']['nld']=2;
-$tine['pegu']['nld']=16;
+$tine['kayin']['nld']=3;
+$tine['magway']['nld']=21;
+$tine['mandalay']['nld']=21;
+$tine['mon']['nld']=0;
+$tine['pegu']['nld']=20;
 $tine['rakhine']['nld']=0;
-$tine['sagaing']['nld']=16;
+$tine['sagaing']['nld']=20;
 $tine['shan']['nld']=3;
-$tine['tanintharyi']['nld']=0;
-$tine['yangon']['nld']=46;
+$tine['tanintharyi']['nld']=4;
+$tine['yangon']['nld']=48;
 
 $tine['ayeyarwaddy']['usdp']=0;
 $tine['chin']['usdp']=0;
@@ -217,20 +217,20 @@ $cultural['shan']['total']=7;
 $cultural['tanintharyi']['total']=1;
 $cultural['yangon']['total']=2;
 
-$cultural['ayeyarwaddy']['nld']=0;
+$cultural['ayeyarwaddy']['nld']=2;
 $cultural['chin']['nld']=0;
-$cultural['kachin']['nld']=0;
-$cultural['kayar']['nld']=0;
-$cultural['kayin']['nld']=0;
-$cultural['magway']['nld']=0;
-$cultural['mandalay']['nld']=0; //unconfirmed
-$cultural['mon']['nld']=0;
-$cultural['pegu']['nld']=0;
-$cultural['rakhine']['nld']=0;
-$cultural['sagaing']['nld']=0;
-$cultural['shan']['nld']=1;
-$cultural['tanintharyi']['nld']=0;
-$cultural['yangon']['nld']=0;
+$cultural['kachin']['nld']=4;
+$cultural['kayar']['nld']=1;
+$cultural['kayin']['nld']=3;
+$cultural['magway']['nld']=1;
+$cultural['mandalay']['nld']=1; //unconfirmed
+$cultural['mon']['nld']=3;
+$cultural['pegu']['nld']=1;
+$cultural['rakhine']['nld']=1;
+$cultural['sagaing']['nld']=2;
+$cultural['shan']['nld']=7;
+$cultural['tanintharyi']['nld']=1;
+$cultural['yangon']['nld']=2;
 
 $cultural['ayeyarwaddy']['usdp']=0;
 $cultural['chin']['usdp']=0;
@@ -334,16 +334,16 @@ $total_state_seats=660;
         <div class="col-md-12">
             <h1 class="h1 text-center">Myanmar Election 2020</h1>
             <h2 class="h2 text-center"> <span>
-<!--                    --><?php //if($paused==true):?>
-<!--                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-pause-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">-->
-<!--                      <path d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5zm5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5z"/>-->
-<!--                    </svg>-->
-<!--                    --><?php //else: ?>
-<!--                        <svg width="0.5em" height="0.5em" viewBox="0 0 16 16" class="bi bi-circle-fill" fill="red" xmlns="http://www.w3.org/2000/svg">-->
-<!--                            <circle cx="8" cy="8" r="8"/>-->
-<!--                        </svg>-->
-<!--                    --><?php //endif; ?>
-<!--                    </span>-->
+                    <?php if($paused==true):?>
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-pause-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5zm5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5z"/>
+                    </svg>
+                    <?php else: ?>
+                        <svg width="0.5em" height="0.5em" viewBox="0 0 16 16" class="bi bi-circle-fill" fill="red" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="8" cy="8" r="8"/>
+                        </svg>
+                    <?php endif; ?>
+                    </span>
                 Live Results
             </h2>
             <hr width="50%">
@@ -728,11 +728,14 @@ $total_state_seats=660;
                             else
                                 $bgcolor = "other-leading";
                         }
-                        if($item['total']==0)
-                            $item['total']=1;
+
                         ?>
 
                         <th scope="row" class="text-capitalize <?php echo $bgcolor; ?>"><?php echo $key." (".$item['total'].")";?> </th>
+                        <?php
+                            if($item['total']==0)
+                                $item['total']=1;
+                        ?>
                         <td><?php echo number_format($item['nld']/$item['total']*100,2,'.','')."% (".$item['nld'].")" ; ?></td>
                         <td><?php echo number_format($item['usdp']/$item['total']*100,2,'.','')."% (".$item['usdp'].")" ; ?></td>
                         <td><?php echo number_format($item['other']/$item['total']*100,2,'.','')."% (".$item['other'].")" ; ?></td>

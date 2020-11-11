@@ -38,19 +38,21 @@ $pyithu['yangon']['nld']=44;  //UEC confirmed
 
 $pyithu['ayeyarwaddy']['usdp']=0;
 $pyithu['chin']['usdp']=0;
-$pyithu['kachin']['usdp']=0;
+$pyithu['kachin']['usdp']=1;
 $pyithu['kayar']['usdp']=1;
-$pyithu['kayin']['usdp']=0;
+$pyithu['kayin']['usdp']=1;
 $pyithu['magway']['usdp']=0;
-$pyithu['mandalay']['usdp']=0;
+$pyithu['mandalay']['usdp']=1;
 $pyithu['mon']['usdp']=0;
 $pyithu['naypyitaw']['usdp']=1;
 $pyithu['pegu']['usdp']=0;
 $pyithu['rakhine']['usdp']=1;
 $pyithu['sagaing']['usdp']=0;
-$pyithu['shan']['usdp']=15;
+$pyithu['shan']['usdp']=8;
 $pyithu['tanintharyi']['usdp']=0;
 $pyithu['yangon']['usdp']=0;
+
+//total =
 
 $pyithu['ayeyarwaddy']['other']=0;
 $pyithu['chin']['other']=0;
@@ -108,9 +110,9 @@ $amyotha['yangon']['nld']=12;
 
 $amyotha['ayeyarwaddy']['usdp']=0;
 $amyotha['chin']['usdp']=0;
-$amyotha['kachin']['usdp']=0;
-$amyotha['kayar']['usdp']=1;
-$amyotha['kayin']['usdp']=0;
+$amyotha['kachin']['usdp']=1;
+$amyotha['kayar']['usdp']=2;
+$amyotha['kayin']['usdp']=1;
 $amyotha['magway']['usdp']=0;
 $amyotha['mandalay']['usdp']=0;
 $amyotha['mon']['usdp']=0;
@@ -175,19 +177,19 @@ $tine['yangon']['nld']=86;
 
 $tine['ayeyarwaddy']['usdp']=0;
 $tine['chin']['usdp']=0;
-$tine['kachin']['usdp']=0;
-$tine['kayar']['usdp']=0;
-$tine['kayin']['usdp']=0;
+$tine['kachin']['usdp']=4;
+$tine['kayar']['usdp']=3;
+$tine['kayin']['usdp']=2;
 $tine['magway']['usdp']=0;
 $tine['mandalay']['usdp']=0;
 $tine['mon']['usdp']=0;
 //$tine['naypyitaw']['usdp']=0;
 $tine['pegu']['usdp']=0;
 $tine['rakhine']['usdp']=1;
-$tine['sagaing']['usdp']=0;
-$tine['shan']['usdp']=17;
+$tine['sagaing']['usdp']=1;
+$tine['shan']['usdp']=12;
 $tine['tanintharyi']['usdp']=0;
-$tine['yangon']['usdp']=0;
+$tine['yangon']['usdp']=4;
 
 $tine['ayeyarwaddy']['other']=0;
 $tine['chin']['other']=0;
@@ -273,7 +275,7 @@ $left_unconfirmed = 430+166+167+113+40+42+41;
 $totalvotes['left'] =    40624326  ;
 $right_unconfirmed = 173+8+9+44+36+36+37;
 //$totalvotes['right'] = $right_unconfirmed+29+8+4+29+237+251+602+0+896+419+5+4+61+158+122+120+382+98+25+98+25+203+75+83+100+100+198+2308+2328+2314+508+13675+89000+32942+363285+80377;
-$totalvotes['right'] = 9526769;
+$totalvotes['right'] = 12384227;
 
 $total_left=0;
 $total_right=0;

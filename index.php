@@ -19,26 +19,26 @@ $pyithu['tanintharyi']['total']=10;
 $pyithu['yangon']['total']=45;
 
 $pyithu['ayeyarwaddy']['nld']=26;
-$pyithu['chin']['nld']=7; //UEC unconfirmed
-$pyithu['kachin']['nld']=7;//unconfirmed
-$pyithu['kayar']['nld']=2;
+$pyithu['chin']['nld']=8; //UEC unconfirmed
+$pyithu['kachin']['nld']=12;//unconfirmed
+$pyithu['kayar']['nld']=3;
 $pyithu['kayin']['nld']=6;
 $pyithu['magway']['nld']=25;
 $pyithu['mandalay']['nld']=35; //UEC Confirmed
-$pyithu['mon']['nld']=7;
+$pyithu['mon']['nld']=8;
 $pyithu['naypyitaw']['nld']=0;
 $pyithu['pegu']['nld']=28;
 $pyithu['rakhine']['nld']=2;
 $pyithu['sagaing']['nld']=36;
-$pyithu['shan']['nld']=7;
+$pyithu['shan']['nld']=14;
 $pyithu['tanintharyi']['nld']=10;
 $pyithu['yangon']['nld']=44;  //UEC confirmed
 
-//total = 242
+//total = 257
 
 $pyithu['ayeyarwaddy']['usdp']=0;
 $pyithu['chin']['usdp']=0;
-$pyithu['kachin']['usdp']=4;
+$pyithu['kachin']['usdp']=5;
 $pyithu['kayar']['usdp']=1;
 $pyithu['kayin']['usdp']=1;
 $pyithu['magway']['usdp']=0;
@@ -47,12 +47,12 @@ $pyithu['mon']['usdp']=0;
 $pyithu['naypyitaw']['usdp']=0;
 $pyithu['pegu']['usdp']=0;
 $pyithu['rakhine']['usdp']=1;
-$pyithu['sagaing']['usdp']=0;
-$pyithu['shan']['usdp']=8;
+$pyithu['sagaing']['usdp']=1;
+$pyithu['shan']['usdp']=11;
 $pyithu['tanintharyi']['usdp']=0;
 $pyithu['yangon']['usdp']=1;
 
-//total = 17
+//total = 22
 
 $pyithu['ayeyarwaddy']['other']=0;
 $pyithu['chin']['other']=0;
@@ -70,6 +70,7 @@ $pyithu['shan']['other']=21; //paoh=3;SNLD=18;
 $pyithu['tanintharyi']['other']=0;
 $pyithu['yangon']['other']=0;
 
+//others = 32
 
 
 //Amyotha
@@ -91,13 +92,13 @@ $amyotha['tanintharyi']['total']=12;
 $amyotha['yangon']['total']=12;
 
 $amyotha['ayeyarwaddy']['nld']=10;
-$amyotha['chin']['nld']=9;
-$amyotha['kachin']['nld']=6;
+$amyotha['chin']['nld']=10;
+$amyotha['kachin']['nld']=10;
 $amyotha['kayar']['nld']=3;
-$amyotha['kayin']['nld']=10;
+$amyotha['kayin']['nld']=11;
 $amyotha['magway']['nld']=12;
 $amyotha['mandalay']['nld']=12;
-$amyotha['mon']['nld']=8;
+$amyotha['mon']['nld']=9;
 $amyotha['naypyitaw']['nld']=0;
 $amyotha['pegu']['nld']=12;
 $amyotha['rakhine']['nld']=1;
@@ -106,7 +107,7 @@ $amyotha['shan']['nld']=0;
 $amyotha['tanintharyi']['nld']=12;
 $amyotha['yangon']['nld']=12;
 
-//total : 119
+//total : 126
 
 $amyotha['ayeyarwaddy']['usdp']=0;
 $amyotha['chin']['usdp']=0;
@@ -161,37 +162,39 @@ $tine['shan']['total']=110;
 $tine['tanintharyi']['total']=20;
 $tine['yangon']['total']=90;
 
-$tine['ayeyarwaddy']['nld']=43;
-$tine['chin']['nld']=14;
-$tine['kachin']['nld']=11;
-$tine['kayar']['nld']=4;
+$tine['ayeyarwaddy']['nld']=50;
+$tine['chin']['nld']=16;
+$tine['kachin']['nld']=23;
+$tine['kayar']['nld']=6;
 $tine['kayin']['nld']=11;
 $tine['magway']['nld']=50;
-$tine['mandalay']['nld']=44;
-$tine['mon']['nld']=12;
-$tine['pegu']['nld']=46;
+$tine['mandalay']['nld']=54;
+$tine['mon']['nld']=14;
+$tine['pegu']['nld']=56;
 $tine['rakhine']['nld']=4;
-$tine['sagaing']['nld']=47;
-$tine['shan']['nld']=15;
+$tine['sagaing']['nld']=72;
+$tine['shan']['nld']=25;
 $tine['tanintharyi']['nld']=20;
 $tine['yangon']['nld']=86;
 
 
-$tine['ayeyarwaddy']['usdp']=0;
+$tine['ayeyarwaddy']['usdp']=1;
 $tine['chin']['usdp']=0;
 $tine['kachin']['usdp']=4;
 $tine['kayar']['usdp']=3;
 $tine['kayin']['usdp']=2;
 $tine['magway']['usdp']=0;
-$tine['mandalay']['usdp']=0;
+$tine['mandalay']['usdp']=1;
 $tine['mon']['usdp']=0;
 //$tine['naypyitaw']['usdp']=0;
 $tine['pegu']['usdp']=0;
 $tine['rakhine']['usdp']=1;
-$tine['sagaing']['usdp']=1;
-$tine['shan']['usdp']=12;
+$tine['sagaing']['usdp']=2;
+$tine['shan']['usdp']=18;
 $tine['tanintharyi']['usdp']=0;
 $tine['yangon']['usdp']=4;
+
+// tine usdp =36
 
 $tine['ayeyarwaddy']['other']=0;
 $tine['chin']['other']=0;
@@ -208,6 +211,7 @@ $tine['sagaing']['other']=0;
 $tine['shan']['other']=22; //SNLD=16; paoh=6;
 $tine['tanintharyi']['other']=0;
 $tine['yangon']['other']=0;
+
 
 //tine yin thar
 
@@ -274,10 +278,11 @@ $cultural['yangon']['other']=1;
 $left_unconfirmed = 430+166+167+113+40+42+41;
 //$totalvotes['left'] = $left_unconfirmed+79+99+100+80+6+3+1154+448+1395+1397+448+447+166+604+515+257+836+435+219+435+219+750+812+1911+1891+1903+793+4890+4912+4879+595+12080+16954+5555+12067+5205+100000+43101+17990;
 //$totalvotes['left']= (8236726*0+329804*0)+(1377679+733481+196193+520630+753004+33739+381686)*0+(741837+100661)*0+(1419+654220+517090+196914+573171+1353021+32201+382720+3487)*0+11263932;
-$totalvotes['left'] =    40624326  ;
+$totalvotes['left'] =    49168865;
+// 17,896,592 +  13,740,081 + 17532392
 $right_unconfirmed = 173+8+9+44+36+36+37;
 //$totalvotes['right'] = $right_unconfirmed+29+8+4+29+237+251+602+0+896+419+5+4+61+158+122+120+382+98+25+98+25+203+75+83+100+100+198+2308+2328+2314+508+13675+89000+32942+363285+80377;
-$totalvotes['right'] = 12753969;
+$totalvotes['right'] = 14730691;
 
 $total_left=0;
 $total_right=0;

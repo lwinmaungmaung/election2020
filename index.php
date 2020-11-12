@@ -48,7 +48,7 @@ $pyithu['naypyitaw']['usdp']=0;
 $pyithu['pegu']['usdp']=0;
 $pyithu['rakhine']['usdp']=1;
 $pyithu['sagaing']['usdp']=1;
-$pyithu['shan']['usdp']=11;
+$pyithu['shan']['usdp']=13;
 $pyithu['tanintharyi']['usdp']=0;
 $pyithu['yangon']['usdp']=1;
 
@@ -180,17 +180,17 @@ $tine['yangon']['nld']=86;
 
 $tine['ayeyarwaddy']['usdp']=1;
 $tine['chin']['usdp']=0;
-$tine['kachin']['usdp']=2;
+$tine['kachin']['usdp']=3;
 $tine['kayar']['usdp']=3;
 $tine['kayin']['usdp']=2;
 $tine['magway']['usdp']=0;
-$tine['mandalay']['usdp']=1;
+$tine['mandalay']['usdp']=0;
 $tine['mon']['usdp']=0;
 //$tine['naypyitaw']['usdp']=0;
 $tine['pegu']['usdp']=0;
 $tine['rakhine']['usdp']=1;
 $tine['sagaing']['usdp']=2;
-$tine['shan']['usdp']=17;
+$tine['shan']['usdp']=19;
 $tine['tanintharyi']['usdp']=0;
 $tine['yangon']['usdp']=4;
 
@@ -278,11 +278,11 @@ $cultural['yangon']['other']=1;
 $left_unconfirmed = 430+166+167+113+40+42+41;
 //$totalvotes['left'] = $left_unconfirmed+79+99+100+80+6+3+1154+448+1395+1397+448+447+166+604+515+257+836+435+219+435+219+750+812+1911+1891+1903+793+4890+4912+4879+595+12080+16954+5555+12067+5205+100000+43101+17990;
 //$totalvotes['left']= (8236726*0+329804*0)+(1377679+733481+196193+520630+753004+33739+381686)*0+(741837+100661)*0+(1419+654220+517090+196914+573171+1353021+32201+382720+3487)*0+11263932;
-$totalvotes['left'] =    49960898;
+$totalvotes['left'] =    52356442;
 // 17,896,592 +  13,740,081 + 17532392
 $right_unconfirmed = 173+8+9+44+36+36+37;
 //$totalvotes['right'] = $right_unconfirmed+29+8+4+29+237+251+602+0+896+419+5+4+61+158+122+120+382+98+25+98+25+203+75+83+100+100+198+2308+2328+2314+508+13675+89000+32942+363285+80377;
-$totalvotes['right'] = 14730691;
+$totalvotes['right'] = 16441345;
 
 $total_left=0;
 $total_right=0;

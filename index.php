@@ -61,10 +61,10 @@ $pyithu['kayar']['other']=2;
 $pyithu['kayin']['other']=0;
 $pyithu['magway']['other']=0;
 $pyithu['mandalay']['other']=0;
-$pyithu['mon']['other']=1;
+$pyithu['mon']['other']=2;
 $pyithu['naypyitaw']['other']=0;
 $pyithu['pegu']['other']=0;
-$pyithu['rakhine']['other']=9;  //ANP =4; AFP=1;
+$pyithu['rakhine']['other']=5;  //ANP =4; AFP=1;
 $pyithu['sagaing']['other']=0;
 $pyithu['shan']['other']=17; //PNO=2;SNLD=13;TNLA=2;
 $pyithu['tanintharyi']['other']=0;
@@ -139,7 +139,7 @@ $amyotha['naypyitaw']['other']=0;
 $amyotha['pegu']['other']=0;
 $amyotha['rakhine']['other']=5; //ANP = 5
 $amyotha['sagaing']['other']=0;
-$amyotha['shan']['other']=3; //SNLD=2;Paoh=1;
+$amyotha['shan']['other']=4; //SNLD=2;Paoh=1;TNLA=1;
 $amyotha['tanintharyi']['other']=0;
 $amyotha['yangon']['other']=0;
 
@@ -198,7 +198,7 @@ $tine['yangon']['usdp']=4;
 
 $tine['ayeyarwaddy']['other']=0;
 $tine['chin']['other']=2; //CNLD=1;Zomi=1;
-$tine['kachin']['other']=6; //SNLD=1; Kachin=3; Individual = 1; DKP=1;
+$tine['kachin']['other']=7; //SNLD=1; Kachin=3; Individual = 1; DKP=1;LDP=1;
 $tine['kayar']['other']=3; //KDP=3;
 $tine['kayin']['other']=1; //KPP =1;
 $tine['magway']['other']=0;
@@ -208,7 +208,7 @@ $tine['mon']['other']=4; //MCP=4;
 $tine['pegu']['other']=0;
 $tine['rakhine']['other']=9;  //ANP =7 ; AFP=2
 $tine['sagaing']['other']=0;
-$tine['shan']['other']=38; //SNLD=27; paoh=6; TNLA=5
+$tine['shan']['other']=40; //SNLD=27; paoh=6; TNLA=5; Shan Democratic=1; Wa =1 ;
 $tine['tanintharyi']['other']=0;
 $tine['yangon']['other']=0;
 

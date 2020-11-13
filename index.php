@@ -473,7 +473,7 @@ $female = 154; //uec
             </div>
             <h5 class="h5">PNO</h5>
             <div class="progress">
-                <div class="progress-bar text-white" role="progressbar" style="background-color: #136d41; width: 23%;" aria-valuenow="PNO (10 Seat Won) in total seats" aria-valuemin="0" aria-valuemax="100">PNO (10 Seat Won) in total seats</div>
+                <div class="progress-bar text-white" role="progressbar" style="background-color: #136d41; width: 23%;" aria-valuenow="PNO (11 Seat Won) in total seats" aria-valuemin="0" aria-valuemax="100">PNO (11 Seat Won) in total seats</div>
             </div>
             *highest seats places full.
             <hr>

@@ -339,6 +339,13 @@ $female = 154; //uec
     <link rel="stylesheet" href="./css/style.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ETMQDCJRTT"></script>
+    <style>
+        marquee{
+            background: darkorchid;
+            color: white;
+            padding: 7px;
+        }
+    </style>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -367,6 +374,7 @@ $female = 154; //uec
             </h2>
             <hr width="50%">
             <h6 class="h6">Data Source: Yway Mal <span class="float-right">Powered by Lovely Family Host</span></h6>
+            <marquee behavior="" direction="rtl">Arakan Army (AA) requests to hold a By-election in Unelected Areas, Myanmar Military welcomes.</marquee>
 
         </div>
         <div class="col-md-12">

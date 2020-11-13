@@ -374,8 +374,9 @@ $female = 154; //uec
             </h2>
             <hr width="50%">
             <h6 class="h6">Data Source: Yway Mal <span class="float-right">Powered by Lovely Family Host</span></h6>
-            <br>d
-            <marquee behavior="" direction="rtl">
+            <br>
+            <br>
+            <marquee behavior="" direction="rtl" width="100%">
 
                 <svg width="0.5em" height="0.5em" viewBox="0 0 16 16" class="bi bi-circle-fill" fill="#CCC" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="8" cy="8" r="8"/>

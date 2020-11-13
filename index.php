@@ -12,9 +12,9 @@ $pyithu['mandalay']['total']=36;
 $pyithu['mon']['total']=10;
 $pyithu['naypyitaw']['total']=8;
 $pyithu['pegu']['total']=28;
-$pyithu['rakhine']['total']=12;
+$pyithu['rakhine']['total']=8;
 $pyithu['sagaing']['total']=37;
-$pyithu['shan']['total']=55;
+$pyithu['shan']['total']=49;
 $pyithu['tanintharyi']['total']=10;
 $pyithu['yangon']['total']=45;
 
@@ -30,11 +30,11 @@ $pyithu['naypyitaw']['nld']=0;
 $pyithu['pegu']['nld']=28;
 $pyithu['rakhine']['nld']=2;
 $pyithu['sagaing']['nld']=36;
-$pyithu['shan']['nld']=15;
+$pyithu['shan']['nld']=14;
 $pyithu['tanintharyi']['nld']=10;
 $pyithu['yangon']['nld']=44;  //UEC confirmed
 
-//total = 259
+//total = 258
 
 $pyithu['ayeyarwaddy']['usdp']=0;
 $pyithu['chin']['usdp']=0;
@@ -52,7 +52,7 @@ $pyithu['shan']['usdp']=13;
 $pyithu['tanintharyi']['usdp']=0;
 $pyithu['yangon']['usdp']=1;
 
-//total = 22
+//total = 24
 
 $pyithu['ayeyarwaddy']['other']=0;
 $pyithu['chin']['other']=1;
@@ -66,7 +66,7 @@ $pyithu['naypyitaw']['other']=0;
 $pyithu['pegu']['other']=0;
 $pyithu['rakhine']['other']=5;  //ANP =4; AFP=1;
 $pyithu['sagaing']['other']=0;
-$pyithu['shan']['other']=17; //PNO=2;SNLD=13;TNLA=2;
+$pyithu['shan']['other']=20; //PNO=3;SNLD=13;TNLA=3;Wa=1
 $pyithu['tanintharyi']['other']=0;
 $pyithu['yangon']['other']=0;
 
@@ -121,7 +121,7 @@ $amyotha['naypyitaw']['usdp']=0;
 $amyotha['pegu']['usdp']=0;
 $amyotha['rakhine']['usdp']=0;
 $amyotha['sagaing']['usdp']=0;
-$amyotha['shan']['usdp']=0;
+$amyotha['shan']['usdp']=2;
 $amyotha['tanintharyi']['usdp']=0;
 $amyotha['yangon']['usdp']=0;
 
@@ -376,7 +376,7 @@ $female = 154; //uec
             <h6 class="h6">Data Source: Yway Mal <span class="float-right">Powered by Lovely Family Host</span></h6>
             <br>
             <br>
-            <marquee behavior="" direction="rtl" width="100%">
+            <marquee behavior="" direction="rtl" width="100%" class="">
 
                 <svg width="0.5em" height="0.5em" viewBox="0 0 16 16" class="bi bi-circle-fill" fill="#CCC" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="8" cy="8" r="8"/>

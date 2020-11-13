@@ -374,7 +374,20 @@ $female = 154; //uec
             </h2>
             <hr width="50%">
             <h6 class="h6">Data Source: Yway Mal <span class="float-right">Powered by Lovely Family Host</span></h6>
-            <marquee behavior="" direction="rtl">Arakan Army (AA) requests to hold a By-election in Unelected Areas, Myanmar Military welcomes.</marquee>
+            <marquee behavior="" direction="rtl">
+
+                <svg width="0.5em" height="0.5em" viewBox="0 0 16 16" class="bi bi-circle-fill" fill="#CCC" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="8" cy="8" r="8"/>
+                </svg>
+                Headlines: Arakan Army (AA)/United League of Arakan(ULA) requests to hold a By-election in Unelected Areas, Myanmar Military welcomes.
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <svg width="0.5em" height="0.5em" viewBox="0 0 16 16" class="bi bi-circle-fill" fill="#CCC" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="8" cy="8" r="8"/>
+                </svg> NLD invited Union's ethnics for the future federalism.
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <svg width="0.5em" height="0.5em" viewBox="0 0 16 16" class="bi bi-circle-fill" fill="#CCC" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="8" cy="8" r="8"/>
+                </svg> Myanmar Military welcomes By-Election on Rakhine and Shan States. </marquee>
 
         </div>
         <div class="col-md-12">

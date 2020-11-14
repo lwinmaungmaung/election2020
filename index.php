@@ -322,8 +322,8 @@ foreach($tine as $index=>$value){
 $total_seats=161+315;
 $total_state_seats=660;
 
-$male = 633; //uec
-$female = 154; //uec
+$male = 785;   //NLD= 633; USDP=54; SNLD=29; Others=69;
+$female = 181; //NLD= 154; USDP= 3; SNLD=13; Others=11;
 
 ?>
 

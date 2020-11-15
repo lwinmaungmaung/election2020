@@ -181,7 +181,7 @@ $tine['yangon']['nld']=88;
 
 $tine['ayeyarwaddy']['usdp']=0;
 $tine['chin']['usdp']=0;
-$tine['kachin']['usdp']=4;
+$tine['kachin']['usdp']=4; // zayansa, sinsone, kaungsaila,
 $tine['kayar']['usdp']=3;
 $tine['kayin']['usdp']=2;
 $tine['magway']['usdp']=0;
@@ -199,7 +199,7 @@ $tine['yangon']['usdp']=2;
 
 $tine['ayeyarwaddy']['other']=0;
 $tine['chin']['other']=2; //CNLD=1;Zomi=1;
-$tine['kachin']['other']=5; // Lisu=1; Kachin=2; Individual = 1; DKP=1;LDP=1;
+$tine['kachin']['other']=7; // Lisu=1; Kachin people's party=3; SNLD=1; Individual = 1; New Demo Party Kachin=1;
 $tine['kayar']['other']=3; //KPP=3;
 $tine['kayin']['other']=1; //KSP =1;
 $tine['magway']['other']=0;
@@ -265,14 +265,14 @@ $cultural['ayeyarwaddy']['other']=0;
 $cultural['chin']['other']=0;
 $cultural['kachin']['other']=0;
 $cultural['kayar']['other']=0;
-$cultural['kayin']['other']=0;
+$cultural['kayin']['other']=1; //mon=1
 $cultural['magway']['other']=0;
 $cultural['mandalay']['other']=0;
 $cultural['mon']['other']=0;
 $cultural['pegu']['other']=0;
 $cultural['rakhine']['other']=0;
 $cultural['sagaing']['other']=0;
-$cultural['shan']['other']=4; //Larhu =1 ;Kyan=1; Lisu=1;Kachin = 1;
+$cultural['shan']['other']=3; //Larhu =1 ;Kayan=1; individual=1;
 $cultural['tanintharyi']['other']=0;
 $cultural['yangon']['other']=1;
 

@@ -466,7 +466,7 @@ $female = 181; //NLD= 154; USDP= 3; SNLD=13; Others=11;
             <h4 class="text-center h3">Top Leading Ethnic Parties</h4>
             <h5 class="h5">SNLD</h5>
             <div class="progress">
-                <div class="progress-bar text-dark" role="progressbar" style="background-color: #f7dc31; width: 100%;" aria-valuenow="SNLD (42 Seat Won) in total seats" aria-valuemin="0" aria-valuemax="100">SNLD (42 Seat Won) in total seats</div>
+                <div class="progress-bar text-dark" role="progressbar" style="background-color: #f7dc31; width: 100%;" aria-valuenow="SNLD (43 Seat Won) in total seats" aria-valuemin="0" aria-valuemax="100">SNLD (43 Seat Won) in total seats</div>
             </div>
             <h5 class="h5">ANP</h5>
             <div class="progress">
@@ -474,7 +474,7 @@ $female = 181; //NLD= 154; USDP= 3; SNLD=13; Others=11;
             </div>
             <h5 class="h5">PNO</h5>
             <div class="progress">
-                <div class="progress-bar text-white" role="progressbar" style="background-color: #136d41; width: 23%;" aria-valuenow="PNO (11 Seat Won) in total seats" aria-valuemin="0" aria-valuemax="100">PNO (11 Seat Won) in total seats</div>
+                <div class="progress-bar text-white" role="progressbar" style="background-color: #136d41; width: 22%;" aria-valuenow="PNO (10 Seat Won) in total seats" aria-valuemin="0" aria-valuemax="100">PNO (10 Seat Won) in total seats</div>
             </div>
             *highest seats places full.
             <hr>

@@ -52,16 +52,16 @@ $pyithu['shan']['usdp']=15;
 $pyithu['tanintharyi']['usdp']=0;
 $pyithu['yangon']['usdp']=1;
 
-//total = 24
+//total = 26
 
 $pyithu['ayeyarwaddy']['other']=0;
-$pyithu['chin']['other']=1;
-$pyithu['kachin']['other']=1;
-$pyithu['kayar']['other']=2;
+$pyithu['chin']['other']=1;    //Zumi=1
+$pyithu['kachin']['other']=1;  // KSP=1;
+$pyithu['kayar']['other']=2;   // KDP=1;
 $pyithu['kayin']['other']=0;
 $pyithu['magway']['other']=0;
 $pyithu['mandalay']['other']=0;
-$pyithu['mon']['other']=2;
+$pyithu['mon']['other']=2;    //MPP = 2;
 $pyithu['naypyitaw']['other']=0;
 $pyithu['pegu']['other']=0;
 $pyithu['rakhine']['other']=5;  //ANP =4; AFP=1;
@@ -70,7 +70,7 @@ $pyithu['shan']['other']=20; //PNO=3;SNLD=13;TNLA=3;Wa=1
 $pyithu['tanintharyi']['other']=0;
 $pyithu['yangon']['other']=0;
 
-//others = 32
+//others = 31
 
 
 //Amyotha
@@ -107,7 +107,7 @@ $amyotha['shan']['nld']=4;
 $amyotha['tanintharyi']['nld']=12;
 $amyotha['yangon']['nld']=12;
 
-//total : 132
+//total : 138
 
 $amyotha['ayeyarwaddy']['usdp']=0;
 $amyotha['chin']['usdp']=0;
@@ -125,7 +125,7 @@ $amyotha['shan']['usdp']=3;
 $amyotha['tanintharyi']['usdp']=0;
 $amyotha['yangon']['usdp']=0;
 
-//total = 4
+//total = 7
 
 $amyotha['ayeyarwaddy']['other']=0;
 $amyotha['chin']['other']=0;
@@ -143,6 +143,7 @@ $amyotha['shan']['other']=5; //SNLD=2;Paoh=1;TNLA=2;
 $amyotha['tanintharyi']['other']=0;
 $amyotha['yangon']['other']=0;
 
+//total =16
 
 //tine
 
@@ -162,9 +163,9 @@ $tine['shan']['total']=98;
 $tine['tanintharyi']['total']=20;
 $tine['yangon']['total']=90;
 
-$tine['ayeyarwaddy']['nld']=51;
+$tine['ayeyarwaddy']['nld']=52;
 $tine['chin']['nld']=16;
-$tine['kachin']['nld']=24;
+$tine['kachin']['nld']=25;
 $tine['kayar']['nld']=8;
 $tine['kayin']['nld']=11;
 $tine['magway']['nld']=50;
@@ -175,12 +176,12 @@ $tine['rakhine']['nld']=4;
 $tine['sagaing']['nld']=72;
 $tine['shan']['nld']=29;
 $tine['tanintharyi']['nld']=20;
-$tine['yangon']['nld']=86;
+$tine['yangon']['nld']=88;
 
 
-$tine['ayeyarwaddy']['usdp']=1;
+$tine['ayeyarwaddy']['usdp']=0;
 $tine['chin']['usdp']=0;
-$tine['kachin']['usdp']=2;
+$tine['kachin']['usdp']=4;
 $tine['kayar']['usdp']=3;
 $tine['kayin']['usdp']=2;
 $tine['magway']['usdp']=0;
@@ -192,15 +193,15 @@ $tine['rakhine']['usdp']=1;
 $tine['sagaing']['usdp']=2;
 $tine['shan']['usdp']=24;
 $tine['tanintharyi']['usdp']=0;
-$tine['yangon']['usdp']=4;
+$tine['yangon']['usdp']=2;
 
-// tine usdp =33
+// tine usdp =38
 
 $tine['ayeyarwaddy']['other']=0;
 $tine['chin']['other']=2; //CNLD=1;Zomi=1;
-$tine['kachin']['other']=6; //SNLD=1; Kachin=3; Individual = 1; DKP=1;LDP=1;
-$tine['kayar']['other']=3; //KDP=3;
-$tine['kayin']['other']=1; //KPP =1;
+$tine['kachin']['other']=5; // Lisu=1; Kachin=2; Individual = 1; DKP=1;LDP=1;
+$tine['kayar']['other']=3; //KPP=3;
+$tine['kayin']['other']=1; //KSP =1;
 $tine['magway']['other']=0;
 $tine['mandalay']['other']=0;
 $tine['mon']['other']=6; //MCP=6;
@@ -234,14 +235,14 @@ $cultural['ayeyarwaddy']['nld']=2;
 $cultural['chin']['nld']=0;
 $cultural['kachin']['nld']=4;
 $cultural['kayar']['nld']=1;
-$cultural['kayin']['nld']=3;
+$cultural['kayin']['nld']=2;
 $cultural['magway']['nld']=1;
 $cultural['mandalay']['nld']=1; //unconfirmed
 $cultural['mon']['nld']=3;
 $cultural['pegu']['nld']=1;
 $cultural['rakhine']['nld']=1;
 $cultural['sagaing']['nld']=2;
-$cultural['shan']['nld']=3;
+$cultural['shan']['nld']=4;
 $cultural['tanintharyi']['nld']=1;
 $cultural['yangon']['nld']=1;
 
